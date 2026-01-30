@@ -38,6 +38,7 @@ origins = [
     "https://dhanushtrailheadleaderboard-3u3kbj9z3.vercel.app",  # Vercel preview URL
     "https://dhanushtrailheadleaderboard-g7pj6868w.vercel.app",  # Latest Vercel URL
     "https://dhanushtrailheadleaderboard-htgwaqj0v.vercel.app",  # Latest Vercel deployment
+    "https://dhanushtrailheadleaderboard-b3pc9psih.vercel.app",  # Latest Vercel deployment
     "https://khaki-swans-call.loca.lt",  # localtunnel URL
     "https://trailhead-leaderboard.onrender.com",  # Render backend URL
     "http://localhost:8000",  # Backend itself
