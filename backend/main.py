@@ -6,6 +6,12 @@ import io
 import shutil
 import asyncio
 from typing import List, Optional
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file (for local development)
+load_dotenv()
+
 from database import students_collection
 from scraper import scraper # Import the global scraper instance
 
