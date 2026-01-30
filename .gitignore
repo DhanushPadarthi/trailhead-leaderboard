@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Playwright
+.cache/
+playwright-report/
+test-results/
+
+# MongoDB
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+.vercel
+
+# Environment
+.env
+.env.local
+.env.production.local
+
+# Temp
+*.tmp
+*.bak
