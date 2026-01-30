@@ -13,11 +13,12 @@ class TrailheadScraper:
             self.playwright = await async_playwright().start()
             self.browser = await self.playwright.chromium.launch(
                 headless=True,
-                channel="chrome",
+                # Don't use channel="chrome" - use downloaded Chromium for Render compatibility
                 args=[
                     "--disable-blink-features=AutomationControlled",
                     "--disable-dev-shm-usage",  # Reduce memory usage
-                    "--no-sandbox"  # Faster startup
+                    "--no-sandbox",  # Required for Render
+                    "--disable-setuid-sandbox"  # Required for Render
                 ]
             )
             self.context = await self.browser.new_context(
