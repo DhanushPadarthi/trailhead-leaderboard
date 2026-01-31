@@ -40,13 +40,6 @@ const Leaderboard = () => {
 
     useEffect(() => {
         fetchStudents();
-
-        // Only auto-refresh in development (localhost), not on Vercel
-        const isProduction = import.meta.env.PROD;
-        if (!isProduction) {
-            const interval = setInterval(fetchStudents, 10000);
-            return () => clearInterval(interval);
-        }
     }, []);
 
     const calculateLevel = (points) => {
