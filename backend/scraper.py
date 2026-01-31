@@ -38,7 +38,7 @@ class TrailheadScraper:
     async def scrape_profile(self, url: str):
         """
         Scrapes a single Trailhead profile using the persistent browser.
-        Optimized for speed and accuracy.
+        Original working version - uses reliable selectors with proper error handling.
         """
         if not url:
             return {"points": 0, "badges": 0, "error": "No URL provided"}
@@ -46,25 +46,24 @@ class TrailheadScraper:
         if not self.browser:
             await self.start()
 
-
         page = await self.context.new_page()
         try:
-            # Navigate with optimized timeout
-            await page.goto(url, wait_until="domcontentloaded", timeout=30000)
-
-            # Quick check for access denied
-            title = await page.title()
-            if "Access Denied" in title:
-                return {"points": 0, "badges": 0, "error": "Access Denied (Bot Detected)"}
-
-            # Wait for main content
+            # Navigate to the profile with longer timeout
+            await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            
+            # Wait for content and check for access denied
             try:
-                await page.wait_for_selector("lwc-tbui-tally", timeout=20000)
+                await page.wait_for_selector("lwc-tbui-tally", timeout=30000)
             except:
+                print("Tally not found immediately, checking title...")
+                title = await page.title()
+                if "Access Denied" in title:
+                    print("Access Denied detected.")
+                    return {"points": 0, "badges": 0, "error": "Access Denied (Bot Detected)"}
                 return {"points": 0, "badges": 0, "error": "Profile content not found"}
 
-            # Small wait for dynamic content
-            await asyncio.sleep(1)
+            # Wait for page to stabilize
+            await asyncio.sleep(2)
 
             # Extract tally values (points, badges)
             tallies = page.locator("lwc-tbui-tally")
