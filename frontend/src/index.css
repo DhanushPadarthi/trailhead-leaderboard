@@ -521,60 +521,143 @@ body {
   }
 
   .app-header h1 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .logo-icon {
-    font-size: 28px;
+    font-size: 24px;
   }
 
-  /* Make stats cards stack vertically */
-  .stats-container {
+  /* Daily update notice - smaller on mobile */
+  .container>div:first-of-type {
+    padding: 10px 15px !important;
+    font-size: 12px !important;
+  }
+
+  /* Make stats cards wrap and smaller */
+  .container>div:nth-of-type(2) {
     flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .container>div:nth-of-type(2)>div:first-child {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px !important;
   }
 
-  /* Leaderboard table responsive */
+  /* Stat cards smaller */
+  .container>div:nth-of-type(2)>div:first-child>div {
+    padding: 12px !important;
+    min-width: auto !important;
+  }
+
+  .container>div:nth-of-type(2)>div:first-child>div span:first-child {
+    font-size: 11px !important;
+  }
+
+  .container>div:nth-of-type(2)>div:first-child>div span:last-child {
+    font-size: 18px !important;
+  }
+
+  /* Download button full width */
+  .btn-secondary {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+
+  /* Table wrapper with horizontal scroll */
   .leaderboard-table {
-    font-size: 12px;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 11px;
+  }
+
+  .leaderboard-table thead,
+  .leaderboard-table tbody,
+  .leaderboard-table tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .leaderboard-table thead {
+    width: calc(100% - 17px);
+    /* Account for scrollbar */
   }
 
   .leaderboard-table th,
   .leaderboard-table td {
-    padding: 8px 4px !important;
+    padding: 6px 4px !important;
+    font-size: 10px;
   }
 
-  /* Hide less important columns on mobile */
-  .leaderboard-table th:nth-child(4),
-  .leaderboard-table td:nth-child(4),
-  .leaderboard-table th:nth-child(5),
-  .leaderboard-table td:nth-child(5) {
-    display: none;
+  /* Player cell adjustments */
+  .player-avatar {
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 11px !important;
+  }
+
+  .player-info h4 {
+    font-size: 12px !important;
+  }
+
+  .player-info p {
+    font-size: 10px !important;
+  }
+
+  /* Rank badge smaller */
+  .rank-badge {
+    font-size: 12px !important;
+    padding: 4px 8px !important;
+  }
+
+  /* Progress bars smaller */
+  .progress-bar {
+    height: 4px !important;
   }
 
   /* Buttons */
   .btn {
-    padding: 10px 16px;
-    font-size: 14px;
+    padding: 8px 12px;
+    font-size: 12px;
   }
 
   /* Tutorial Modal */
   .tutorial-modal {
     padding: 20px !important;
     width: 95% !important;
+    max-height: 85vh !important;
   }
 
   .tutorial-modal h2 {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
 
   .tutorial-modal h3 {
-    font-size: 16px !important;
+    font-size: 15px !important;
+  }
+
+  .tutorial-modal p,
+  .tutorial-modal li {
+    font-size: 13px !important;
+  }
+
+  /* Tutorial button */
+  button[style*="position: fixed"] {
+    top: 10px !important;
+    right: 10px !important;
+    padding: 8px 16px !important;
+    font-size: 12px !important;
   }
 
   /* Admin Panel */
   .admin-panel table {
-    font-size: 12px;
+    font-size: 11px;
+    display: block;
+    overflow-x: auto;
   }
 
   .admin-panel th,
@@ -586,15 +669,38 @@ body {
 /* Mobile phones (480px and below) */
 @media (max-width: 480px) {
   .app-header h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .logo-icon {
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  /* Stats in single column on very small screens */
+  .container>div:nth-of-type(2)>div:first-child {
+    grid-template-columns: 1fr !important;
   }
 
   .leaderboard-table {
-    font-size: 11px;
+    font-size: 10px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 4px 2px !important;
+  }
+
+  /* Even smaller text */
+  .player-info h4 {
+    font-size: 11px !important;
+  }
+
+  .player-info p {
+    font-size: 9px !important;
   }
 
   /* Stack buttons vertically */
@@ -605,14 +711,8 @@ body {
 
   .btn {
     width: 100%;
-  }
-
-  /* Hide even more columns on very small screens */
-  .leaderboard-table th:nth-child(6),
-  .leaderboard-table td:nth-child(6),
-  .leaderboard-table th:nth-child(7),
-  .leaderboard-table td:nth-child(7) {
-    display: none;
+    font-size: 11px;
+    padding: 6px 10px;
   }
 }
 
@@ -625,5 +725,13 @@ body {
   .tutorial-modal {
     max-height: 90vh !important;
     overflow-y: auto;
+  }
+}
+
+/* Ensure table is scrollable on all mobile devices */
+@media (max-width: 768px) {
+  .leaderboard-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
