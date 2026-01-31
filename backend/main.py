@@ -8,6 +8,14 @@ import asyncio
 from typing import List, Optional
 from dotenv import load_dotenv
 import os
+import logging
+
+# Configure logging for better visibility in Render
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
 # Load environment variables from .env file (for local development)
 load_dotenv()
@@ -70,7 +78,7 @@ async def process_student_scrape(roll_number: str, url: str):
     Uses a semaphore to limit concurrent browser pages.
     """
     async with SCRAPE_SEMAPHORE:
-        print(f"Starting scrape for {roll_number}...")
+        logger.info(f"🔄 Starting scrape for {roll_number} - URL: {url}")
         try:
             data = await scraper.scrape_profile(url)
             
@@ -85,14 +93,20 @@ async def process_student_scrape(roll_number: str, url: str):
             
             if "error" in data:
                 update_data["scrape_error"] = data["error"]
+                logger.warning(f"⚠️  Scrape error for {roll_number}: {data['error']}")
+            else:
+                logger.info(f"✅ Successfully scraped {roll_number}: {data.get('points', 0)} points, {data.get('badges', 0)} badges")
             
             students_collection.update_one(
                 {"roll_number": roll_number},
                 {"$set": update_data}
             )
-            print(f"Finished scrape for {roll_number}: {update_data}")
         except Exception as e:
-            print(f"Error processing scrape for {roll_number}: {e}")
+            logger.error(f"❌ Error processing scrape for {roll_number}: {e}")
+            students_collection.update_one(
+                {"roll_number": roll_number},
+                {"$set": {"is_scraping": False, "scrape_error": str(e)}}
+            )
 
 @app.post("/upload")
 async def upload_file(background_tasks: BackgroundTasks, file: UploadFile = File(...)):
