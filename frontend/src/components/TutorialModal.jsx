@@ -111,16 +111,16 @@ const TutorialModal = () => {
                         marginBottom: '20px'
                     }}>
                         <h3 style={{ color: '#ef4444', fontSize: '18px', fontWeight: '600', marginBottom: '10px' }}>
-                            🚨 If Your Profile Shows "Private" or "Invalid"
+                            🚨 For knowing your profile is private or Invalid
                         </h3>
                         <p style={{ color: '#e2e8f0', lineHeight: '1.6', marginBottom: '10px' }}>
-                            If your profile status shows <strong>"Private"</strong> or <strong>"Invalid URL"</strong>, and your <strong>Points and Badges are both 0</strong>:
+                            Set status to <strong>"in progress"</strong> if <strong>Points and Badges are both 0</strong>:
                         </p>
                         <ol style={{ color: '#e2e8f0', lineHeight: '1.8', paddingLeft: '20px' }}>
                             <li>Make sure your Trailhead profile is set to <strong>Public</strong></li>
                             <li>Update your correct Trailhead URL in the Google Form</li>
                             <li>The form link is shared in your WhatsApp group</li>
-                            <li>After updating, wait for the next sync (or contact admin)</li>
+                            <li>After updating, wait for the next sync</li>
                         </ol>
                     </div>
 
@@ -139,11 +139,11 @@ const TutorialModal = () => {
                         </p>
                         <ul style={{ color: '#e2e8f0', lineHeight: '1.8', paddingLeft: '20px' }}>
                             <li><strong>Champion 2026</strong> ✓ = You completed the Champion module</li>
-                            <li><strong>Innovator 2026</strong> ✓ = You completed the Innovator module</li>
-                            <li><strong>Legend 2026</strong> ✓ = You completed the Legend module</li>
+                            <li><strong>Innovator 2026</strong> ✓ = You completed the champion and Innovator module</li>
+                            <li><strong>Legend 2026</strong> ✓ = You completed the champion, Innovator andLegend module</li>
                         </ul>
                         <p style={{ color: '#94a3b8', fontSize: '14px', marginTop: '10px', fontStyle: 'italic' }}>
-                            Example: If you see ✓ on Champion and Innovator, but not Legend, you've completed 2 out of 3 modules!
+                            Example: If you see ✓ on Innovator, but not Legend, you've completed 2 out of 3 modules!
                         </p>
                     </div>
 
