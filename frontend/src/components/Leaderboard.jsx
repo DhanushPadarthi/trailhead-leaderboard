@@ -6,18 +6,31 @@ const Leaderboard = () => {
     const [students, setStudents] = useState([]);
     const [filteredStudents, setFilteredStudents] = useState([]); // Added for filtering
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null); // Added error state
+    const [error, setError] = useState(null);
 
-    const fetchStudents = async () => { // Renamed from fetchData
+    // Sort students by points (desc), then badges (desc)
+    const sortStudents = (data) => {
+        return [...data].sort((a, b) => {
+            // First sort by points (higher is better)
+            if (b.points !== a.points) {
+                return b.points - a.points;
+            }
+            // If points are equal, sort by badges (higher is better)
+            return b.badges - a.badges;
+        });
+    };
+
+    const fetchStudents = async () => {
         try {
             setLoading(true);
             setError(null);
 
             // Try to fetch from API first
             try {
-                const response = await api.get('/students'); // Changed from getStudents()
-                setStudents(response.data);
-                setFilteredStudents(response.data);
+                const response = await api.get('/students');
+                const sortedData = sortStudents(response.data);
+                setStudents(sortedData);
+                setFilteredStudents(sortedData);
             } catch (apiError) {
                 console.warn('API unavailable, loading static data...', apiError);
 
@@ -25,8 +38,9 @@ const Leaderboard = () => {
                 const staticResponse = await fetch('/static-data.json');
                 if (staticResponse.ok) {
                     const staticData = await staticResponse.json();
-                    setStudents(staticData);
-                    setFilteredStudents(staticData);
+                    const sortedData = sortStudents(staticData);
+                    setStudents(sortedData);
+                    setFilteredStudents(sortedData);
                 } else {
                     throw new Error('Failed to load static data'); // More specific error
                 }
@@ -226,6 +240,24 @@ const Leaderboard = () => {
     return (
         <div>
             <TutorialModal />
+
+            {/* Daily Update Notice */}
+            <div style={{
+                background: 'linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(16, 185, 129, 0.1) 100%)',
+                border: '1px solid rgba(59, 130, 246, 0.3)',
+                borderRadius: '12px',
+                padding: '12px 20px',
+                marginBottom: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '10px'
+            }}>
+                <span style={{ fontSize: '20px' }}>🕘</span>
+                <span style={{ color: '#60a5fa', fontSize: '14px', fontWeight: '500' }}>
+                    Scores are automatically updated every day at 9:00 PM
+                </span>
+            </div>
+
             <div style={{ ...statsContainerStyle, justifyContent: 'space-between', alignItems: 'flex-end' }}>
                 <div style={{ display: 'flex', gap: '20px' }}>
                     <div style={statCardStyle}>
@@ -269,7 +301,6 @@ const Leaderboard = () => {
                     <tr className="table-header">
                         <th>Rank</th>
                         <th>Player</th>
-                        <th>Status</th>
                         <th>XP</th>
                         <th>Badges</th>
                         <th>Certs</th>
@@ -279,7 +310,7 @@ const Leaderboard = () => {
                         <th>Action</th>
                     </tr>
                     {/* Filter Row */}
-                    <tr style={{ background: 'rgba(30, 41, 59, 0.5)' }}>
+                    <tr className="filter-row" style={{ background: 'rgba(30, 41, 59, 0.5)' }}>
                         <th style={filterCellStyle}></th>
                         <th style={filterCellStyle}>
                             <input
@@ -288,17 +319,6 @@ const Leaderboard = () => {
                                 value={filters.name}
                                 onChange={(e) => handleFilterChange('name', e.target.value)}
                             />
-                        </th>
-                        <th style={filterCellStyle}>
-                            <select
-                                style={inputStyle}
-                                value={filters.status}
-                                onChange={(e) => handleFilterChange('status', e.target.value)}
-                            >
-                                <option value="All">All</option>
-                                <option value="Complete">Complete</option>
-                                <option value="In Progress">In Progress</option>
-                            </select>
                         </th>
                         <th style={filterCellStyle}>
                             <input
@@ -405,12 +425,7 @@ const Leaderboard = () => {
                                     </div>
                                 </td>
 
-                                {/* Status */}
-                                <td>
-                                    <span className={`status-badge ${status.class}`}>
-                                        ● {status.label}
-                                    </span>
-                                </td>
+
 
                                 {/* XP */}
                                 <td>

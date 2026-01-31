@@ -113,26 +113,6 @@ const TutorialModal = () => {
                 </div>
 
                 <div style={{ marginBottom: '30px' }}>
-                    <div style={{
-                        background: 'rgba(239, 68, 68, 0.1)',
-                        border: '1px solid #ef4444',
-                        borderRadius: '12px',
-                        padding: '20px',
-                        marginBottom: '20px'
-                    }}>
-                        <h3 style={{ color: '#ef4444', fontSize: '18px', fontWeight: '600', marginBottom: '10px' }}>
-                            🚨 For knowing your profile is private or Invalid
-                        </h3>
-                        <p style={{ color: '#e2e8f0', lineHeight: '1.6', marginBottom: '10px' }}>
-                            Set status to <strong>"in progress"</strong> if <strong>Points and Badges are both 0</strong>:
-                        </p>
-                        <ol style={{ color: '#e2e8f0', lineHeight: '1.8', paddingLeft: '20px' }}>
-                            <li>Make sure your Trailhead profile is set to <strong>Public</strong></li>
-                            <li>Update your correct Trailhead URL in the Google Form</li>
-                            <li>The form link is shared in your WhatsApp group</li>
-                            <li>After updating, wait for the next sync</li>
-                        </ol>
-                    </div>
 
                     <div style={{
                         background: 'rgba(16, 185, 129, 0.1)',
@@ -154,25 +134,14 @@ const TutorialModal = () => {
                         </ul>
                         <p style={{ color: '#94a3b8', fontSize: '14px', marginTop: '10px', fontStyle: 'italic' }}>
                             Example: If you see ✓ on Innovator, but not Legend, you've completed 2 out of 3 modules!
+                            <br></br>
+                            <br></br>
+                            If you see ✓ on all three badges, then you must update url again<br></br>
+                            and if any other case search your name, check your profile and then update your correct url
+
                         </p>
                     </div>
 
-                    <div style={{
-                        background: 'rgba(59, 130, 246, 0.1)',
-                        border: '1px solid #3b82f6',
-                        borderRadius: '12px',
-                        padding: '20px'
-                    }}>
-                        <h3 style={{ color: '#3b82f6', fontSize: '18px', fontWeight: '600', marginBottom: '10px' }}>
-                            📊 How the Leaderboard Works
-                        </h3>
-                        <ul style={{ color: '#e2e8f0', lineHeight: '1.8', paddingLeft: '20px' }}>
-                            <li>Rankings are based on <strong>Points</strong> (higher is better)</li>
-                            <li>If points are equal, <strong>Badges</strong> are used as a tiebreaker</li>
-                            <li>Data syncs periodically from Salesforce Trailhead</li>
-                            <li>Keep your profile public to ensure accurate tracking</li>
-                        </ul>
-                    </div>
                 </div>
 
                 <button
