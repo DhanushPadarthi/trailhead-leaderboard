@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import os
 import logging
 
-# Configure logging for better visibility in Render
+# Configure logging for better visibility
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -43,13 +43,6 @@ origins = [
     "http://localhost:5173",  # Vite default
     "http://localhost:3000",  # Next.js default
     "https://dhanushtrailheadleaderboard.vercel.app",  # Production Vercel URL
-    "https://dhanushtrailheadleaderboard-3u3kbj9z3.vercel.app",  # Vercel preview URL
-    "https://dhanushtrailheadleaderboard-g7pj6868w.vercel.app",  # Vercel deployment
-    "https://dhanushtrailheadleaderboard-htgwaqj0v.vercel.app",  # Vercel deployment
-    "https://dhanushtrailheadleaderboard-b3pc9psih.vercel.app",  # Vercel deployment
-    "https://dhanushtrailheadlderboard.vercel.app",  # Latest Vercel deployment
-    "https://khaki-swans-call.loca.lt",  # localtunnel URL
-    "https://trailhead-leaderboard.onrender.com",  # Render backend URL
     "http://localhost:8000",  # Backend itself
     "*"  # Allow all (for development)
 ]
@@ -95,6 +88,7 @@ async def process_student_scrape(roll_number: str, url: str):
                 update_data["scrape_error"] = data["error"]
                 logger.warning(f"⚠️  Scrape error for {roll_number}: {data['error']}")
             else:
+                update_data["scrape_error"] = None # Clear previous error
                 logger.info(f"✅ Successfully scraped {roll_number}: {data.get('points', 0)} points, {data.get('badges', 0)} badges")
             
             students_collection.update_one(
@@ -146,10 +140,12 @@ async def upload_file(background_tasks: BackgroundTasks, file: UploadFile = File
             continue
 
         # Upsert student into DB as placeholder
+        # Default status: "Pending Verification" (treated as Private/Invalid until proven otherwise)
         student_doc = {
             "roll_number": roll,
             "profile_url": url,
-            "name": name
+            "name": name,
+            "scrape_error": "Pending Verification" # Initially assume private/invalid
         }
         # Only set default points/badges if new document
         students_collection.update_one(
@@ -169,12 +165,16 @@ def get_leaderboard():
     """
     Get sorted leaderboard.
     """
+    # Force float for sorting just in case
     students = list(students_collection.find({}, {"_id": 0}))
     
+    # Sort in memory to handle points possibly being strings in rare cases
+    # or rely on mongo sort if schema is strict.
+    # Mongo sort:
     students_cursor = students_collection.find({}, {"_id": 0}).sort([("points", -1), ("badges", -1)])
     students_list = list(students_cursor)
     
-    # Add rank
+    # Add rank dynamically
     for idx, s in enumerate(students_list):
         s["rank"] = idx + 1
         
@@ -250,29 +250,40 @@ async def export_leaderboard():
         is_trailhead = "trailblazer.me" in url or "salesforce.com/trailblazer" in url
         
         # Check if profile is private/error
-        is_private = "Access Denied" in str(s.get("scrape_error", "")) or "Profile content not found" in str(s.get("scrape_error", "")) or s.get("points", 0) == 0
-
+        error = str(s.get("scrape_error", ""))
+        error_lower = error.lower()
+        
+        # Determine Status Categories
+        is_private = "access denied" in error_lower or "private" in error_lower or "hidden" in error_lower or "pending" in error_lower
+        is_invalid = "not found" in error_lower or "404" in error_lower or "navigation failed" in error_lower or "invalid" in error_lower
+        
         row = {
-            "Rank": idx + 1 if not is_private and is_trailhead else "N/A",
+            "Rank": idx + 1 if (not is_private and not is_invalid and is_trailhead) else "N/A",
             "Roll Number": s.get("roll_number", ""),
             "Name": s.get("name", ""),
             "Points": s.get("points", 0),
             "Badges": s.get("badges", 0),
-            "Certifications": ", ".join(s.get("certifications", [])),
+            "Certifications": ", ".join(s.get("certifications", [])) if isinstance(s.get("certifications"), list) else s.get("certifications", ""),
             "Champion 2026": champion,
             "Innovator 2026": innovator,
             "Legend 2026": legend,
             "Profile URL": url,
-            "Status": "Public"
+            "Status": "Public",
+            "Error Details": error if error and error != "None" else ""
         }
         
         if not is_trailhead:
-             row["Status"] = "Invalid URL"
+             row["Status"] = "Invalid URL Format"
              invalid_url_data.append(row)
         elif is_private:
-            row["Status"] = "Private/Error"
+            row["Status"] = "Private Profile"
             private_data.append(row)
+        elif is_invalid:
+             row["Status"] = "Invalid/Not Found"
+             invalid_url_data.append(row)
         else:
+            # If points are 0 and no specific error, but loop isn't scraping, it might be an issue.
+            # But we leave it in public as "New/Empty" unless user explicitly wants 0 points separated.
             public_data.append(row)
         
         # Track if this is a duplicate roll number
@@ -290,10 +301,19 @@ async def export_leaderboard():
     with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
         if not df_public.empty:
             df_public.to_excel(writer, index=False, sheet_name='Leaderboard')
+        else:
+            pd.DataFrame({'Message': ['No public profiles found']}).to_excel(writer, sheet_name='Leaderboard')
+            
         if not df_private.empty:
             df_private.to_excel(writer, index=False, sheet_name='Private Profiles')
+        else:
+             pd.DataFrame({'Message': ['No private profiles found']}).to_excel(writer, sheet_name='Private Profiles')
+             
         if not df_invalid.empty:
             df_invalid.to_excel(writer, index=False, sheet_name='Invalid URLs')
+        else:
+             pd.DataFrame({'Message': ['No invalid URLs found']}).to_excel(writer, sheet_name='Invalid URLs')
+             
         if not df_duplicates.empty:
             df_duplicates.to_excel(writer, index=False, sheet_name='Duplicates')
         
