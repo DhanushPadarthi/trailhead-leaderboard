@@ -86,8 +86,8 @@ class TrailheadScraper:
 
         page = await self.context.new_page()
         try:
-            # Add random delay before navigation (0.5-2 seconds)
-            await asyncio.sleep(__import__('random').uniform(0.5, 2))
+            # Add longer random delay before navigation (2-5 seconds) to avoid bot detection
+            await asyncio.sleep(__import__('random').uniform(2, 5))
             
             # Navigate with optimized timeout
             await page.goto(url, wait_until="domcontentloaded", timeout=30000)
@@ -103,8 +103,8 @@ class TrailheadScraper:
             except:
                 return {"points": 0, "badges": 0, "error": "Profile content not found"}
 
-            # Random human-like wait (1-2 seconds)
-            await asyncio.sleep(__import__('random').uniform(1, 2))
+            # Longer random human-like wait (2-4 seconds)
+            await asyncio.sleep(__import__('random').uniform(2, 4))
 
             # Extract tally values (points, badges)
             tallies = page.locator("lwc-tbui-tally")

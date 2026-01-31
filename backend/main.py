@@ -25,8 +25,8 @@ from scraper import scraper # Import the global scraper instance
 
 app = FastAPI()
 
-# Concurrency limit for scraping - optimized for maximum speed
-SCRAPE_SEMAPHORE = asyncio.Semaphore(20)  # Limit to 20 concurrent tabs (adjust based on system resources)
+# Concurrency limit for scraping - reduced to avoid bot detection on cloud hosting
+SCRAPE_SEMAPHORE = asyncio.Semaphore(3)  # Limit to 3 concurrent tabs for better stealth
 
 @app.on_event("startup")
 async def startup_event():
