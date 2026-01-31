@@ -1,24 +1,46 @@
 import React, { useEffect, useState } from 'react';
-import { getStudents, downloadExcel } from '../api';
+import api, { downloadExcel } from '../api'; // Assuming 'api' is the default export for axios instance, and downloadExcel is a named export
 
 const Leaderboard = () => {
     const [students, setStudents] = useState([]);
+    const [filteredStudents, setFilteredStudents] = useState([]); // Added for filtering
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null); // Added error state
 
-    const fetchData = async () => {
+    const fetchStudents = async () => { // Renamed from fetchData
         try {
-            const response = await getStudents();
-            setStudents(response.data);
-        } catch (error) {
-            console.error("Error fetching leaderboard:", error);
+            setLoading(true);
+            setError(null);
+
+            // Try to fetch from API first
+            try {
+                const response = await api.get('/students'); // Changed from getStudents()
+                setStudents(response.data);
+                setFilteredStudents(response.data);
+            } catch (apiError) {
+                console.warn('API unavailable, loading static data...', apiError);
+
+                // Fallback to static data
+                const staticResponse = await fetch('/static-data.json');
+                if (staticResponse.ok) {
+                    const staticData = await staticResponse.json();
+                    setStudents(staticData);
+                    setFilteredStudents(staticData);
+                } else {
+                    throw new Error('Failed to load static data'); // More specific error
+                }
+            }
+        } catch (err) {
+            console.error('Error fetching students:', err);
+            setError('Failed to load leaderboard data. Please try again later.');
         } finally {
             setLoading(false);
         }
     };
 
     useEffect(() => {
-        fetchData();
-        const interval = setInterval(fetchData, 10000);
+        fetchStudents();
+        const interval = setInterval(fetchStudents, 10000);
         return () => clearInterval(interval);
     }, []);
 
