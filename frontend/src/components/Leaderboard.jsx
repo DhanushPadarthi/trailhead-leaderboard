@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import api, { downloadExcel } from '../api'; // Assuming 'api' is the default export for axios instance, and downloadExcel is a named export
+import api, { downloadExcel } from '../api';
+import TutorialModal from './TutorialModal';
 
 const Leaderboard = () => {
     const [students, setStudents] = useState([]);
@@ -224,6 +225,7 @@ const Leaderboard = () => {
 
     return (
         <div>
+            <TutorialModal />
             <div style={{ ...statsContainerStyle, justifyContent: 'space-between', alignItems: 'flex-end' }}>
                 <div style={{ display: 'flex', gap: '20px' }}>
                     <div style={statCardStyle}>
