@@ -487,3 +487,125 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/* ========================================
+   MOBILE RESPONSIVE STYLES
+   ======================================== */
+
+/* Tablets and below (768px) */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .app-header {
+    padding: 20px 10px 10px;
+  }
+
+  .app-header h1 {
+    font-size: 24px;
+  }
+
+  .logo-icon {
+    font-size: 28px;
+  }
+
+  /* Make stats cards stack vertically */
+  .stats-container {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+
+  /* Leaderboard table responsive */
+  .leaderboard-table {
+    font-size: 12px;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 8px 4px !important;
+  }
+
+  /* Hide less important columns on mobile */
+  .leaderboard-table th:nth-child(4),
+  .leaderboard-table td:nth-child(4),
+  .leaderboard-table th:nth-child(5),
+  .leaderboard-table td:nth-child(5) {
+    display: none;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
+  /* Tutorial Modal */
+  .tutorial-modal {
+    padding: 20px !important;
+    width: 95% !important;
+  }
+
+  .tutorial-modal h2 {
+    font-size: 22px !important;
+  }
+
+  .tutorial-modal h3 {
+    font-size: 16px !important;
+  }
+
+  /* Admin Panel */
+  .admin-panel table {
+    font-size: 12px;
+  }
+
+  .admin-panel th,
+  .admin-panel td {
+    padding: 6px 4px !important;
+  }
+}
+
+/* Mobile phones (480px and below) */
+@media (max-width: 480px) {
+  .app-header h1 {
+    font-size: 20px;
+  }
+
+  .logo-icon {
+    font-size: 24px;
+  }
+
+  .leaderboard-table {
+    font-size: 11px;
+  }
+
+  /* Stack buttons vertically */
+  .btn-container {
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* Hide even more columns on very small screens */
+  .leaderboard-table th:nth-child(6),
+  .leaderboard-table td:nth-child(6),
+  .leaderboard-table th:nth-child(7),
+  .leaderboard-table td:nth-child(7) {
+    display: none;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 600px) and (orientation: landscape) {
+  .app-header {
+    padding: 10px;
+  }
+
+  .tutorial-modal {
+    max-height: 90vh !important;
+    overflow-y: auto;
+  }
+}

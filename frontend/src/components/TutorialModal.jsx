@@ -4,15 +4,25 @@ const TutorialModal = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        // Check if user has seen the tutorial
-        const hasSeenTutorial = localStorage.getItem('hasSeenTutorial');
-        if (!hasSeenTutorial) {
+        // Check if user has seen the tutorial (with error handling)
+        try {
+            const hasSeenTutorial = localStorage.getItem('hasSeenTutorial');
+            if (!hasSeenTutorial) {
+                setIsOpen(true);
+            }
+        } catch (error) {
+            // If localStorage is blocked, show tutorial anyway
+            console.warn('localStorage not available:', error);
             setIsOpen(true);
         }
     }, []);
 
     const handleClose = () => {
-        localStorage.setItem('hasSeenTutorial', 'true');
+        try {
+            localStorage.setItem('hasSeenTutorial', 'true');
+        } catch (error) {
+            console.warn('Could not save to localStorage:', error);
+        }
         setIsOpen(false);
     };
 
