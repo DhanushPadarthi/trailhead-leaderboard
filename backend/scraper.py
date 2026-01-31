@@ -8,7 +8,7 @@ class TrailheadScraper:
         self.context = None
 
     async def start(self):
-        """Initializes the browser instance."""
+        """Initializes the browser instance with stealth features."""
         if not self.browser:
             self.playwright = await async_playwright().start()
             self.browser = await self.playwright.chromium.launch(
@@ -16,15 +16,51 @@ class TrailheadScraper:
                 # Don't use channel="chrome" - use downloaded Chromium for Render compatibility
                 args=[
                     "--disable-blink-features=AutomationControlled",
-                    "--disable-dev-shm-usage",  # Reduce memory usage
-                    "--no-sandbox",  # Required for Render
-                    "--disable-setuid-sandbox"  # Required for Render
+                    "--disable-dev-shm-usage",
+                    "--no-sandbox",
+                    "--disable-setuid-sandbox",
+                    "--disable-infobars",
+                    "--window-size=1920,1080",
+                    "--disable-web-security",
+                    "--disable-features=IsolateOrigins,site-per-process",
+                    "--disable-background-timer-throttling",
+                    "--disable-backgrounding-occluded-windows",
+                    "--disable-renderer-backgrounding"
                 ]
             )
             self.context = await self.browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+                viewport={"width": 1920, "height": 1080},
+                locale="en-US",
+                timezone_id="America/New_York",
+                permissions=["geolocation"],
+                geolocation={"latitude": 40.7128, "longitude": -74.0060},
+                extra_http_headers={
+                    "Accept-Language": "en-US,en;q=0.9",
+                    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Connection": "keep-alive",
+                    "Upgrade-Insecure-Requests": "1"
+                }
             )
-            print("Browser started.")
+            
+            # Add script to hide automation
+            await self.context.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                });
+                Object.defineProperty(navigator, 'plugins', {
+                    get: () => [1, 2, 3, 4, 5]
+                });
+                Object.defineProperty(navigator, 'languages', {
+                    get: () => ['en-US', 'en']
+                });
+                window.chrome = {
+                    runtime: {}
+                };
+            """)
+            
+            print("Browser started with stealth mode.")
 
     async def stop(self):
         """Closes the browser instance."""
@@ -47,8 +83,12 @@ class TrailheadScraper:
         if not self.browser:
             await self.start()
 
+
         page = await self.context.new_page()
         try:
+            # Add random delay before navigation (0.5-2 seconds)
+            await asyncio.sleep(__import__('random').uniform(0.5, 2))
+            
             # Navigate with optimized timeout
             await page.goto(url, wait_until="domcontentloaded", timeout=30000)
 
@@ -57,14 +97,14 @@ class TrailheadScraper:
             if "Access Denied" in title:
                 return {"points": 0, "badges": 0, "error": "Access Denied (Bot Detected)"}
 
-            # Wait for main content
+            # Wait for main content with random delay
             try:
                 await page.wait_for_selector("lwc-tbui-tally", timeout=20000)
             except:
                 return {"points": 0, "badges": 0, "error": "Profile content not found"}
 
-            # Small wait for dynamic content
-            await asyncio.sleep(1)
+            # Random human-like wait (1-2 seconds)
+            await asyncio.sleep(__import__('random').uniform(1, 2))
 
             # Extract tally values (points, badges)
             tallies = page.locator("lwc-tbui-tally")
