@@ -13,4 +13,4 @@ output_path = "../frontend/public/static-data.json"
 with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(students, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Exported {len(students)} students to {output_path}")
+print(f"Exported {len(students)} students to {output_path}")
