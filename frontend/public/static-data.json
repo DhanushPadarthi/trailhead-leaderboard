@@ -2788,6 +2788,21 @@
     "rank": 174
   },
   {
+    "roll_number": "22R01A04E0",
+    "agentblazer_status": [],
+    "badges": 34,
+    "certifications": [
+      "Salesforce Certified Agentforce Specialist"
+    ],
+    "name": "",
+    "points": 6700,
+    "profile_url": "https://www.salesforce.com/trailblazer/bodarishitha",
+    "scrape_error": null,
+    "is_scraping": false,
+    "last_updated": "2026-02-01T22:14:02.628207",
+    "rank": 175
+  },
+  {
     "roll_number": "23R01A04F0",
     "agentblazer_status": [],
     "badges": 40,
@@ -2798,19 +2813,6 @@
     "scrape_error": null,
     "is_scraping": false,
     "last_updated": "2026-02-01T20:13:46.822794",
-    "rank": 175
-  },
-  {
-    "roll_number": "22R01A04E0",
-    "agentblazer_status": [],
-    "badges": 33,
-    "certifications": [],
-    "name": "",
-    "points": 6650,
-    "profile_url": "https://www.salesforce.com/trailblazer/bodarishitha",
-    "scrape_error": null,
-    "is_scraping": false,
-    "last_updated": "2026-02-01T19:38:55.120927",
     "rank": 176
   },
   {
