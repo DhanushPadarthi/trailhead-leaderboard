@@ -46,16 +46,21 @@ const AdminPanel = () => {
         if (statusFilter !== 'All') {
             filtered = filtered.filter(s => {
                 const error = s.scrape_error || '';
+                const errorLower = error.toLowerCase();
+
                 if (statusFilter === 'Valid') {
                     return !error || error === '';
-                } else if (statusFilter === 'Private/Error') {
-                    return error.toLowerCase().includes('private') ||
-                        error.toLowerCase().includes('access') ||
-                        error.toLowerCase().includes('pending');
-                } else if (statusFilter === 'Invalid') {
-                    return error.toLowerCase().includes('not found') ||
-                        error.toLowerCase().includes('404') ||
-                        error.toLowerCase().includes('invalid');
+                } else if (statusFilter === 'Private') {
+                    return errorLower.includes('private') ||
+                        errorLower.includes('cannot access data') ||
+                        errorLower.includes('hidden');
+                } else if (statusFilter === 'InvalidFormat') {
+                    return errorLower.includes('invalid profile url format');
+                } else if (statusFilter === 'NotFound') {
+                    return errorLower.includes('not found') ||
+                        errorLower.includes('404');
+                } else if (statusFilter === 'Pending') {
+                    return errorLower.includes('pending');
                 }
                 return true;
             });
@@ -229,8 +234,10 @@ const AdminPanel = () => {
                         >
                             <option value="All">All Status</option>
                             <option value="Valid">✓ Valid Profiles</option>
-                            <option value="Private/Error">🔒 Private/Error</option>
-                            <option value="Invalid">❌ Invalid URLs</option>
+                            <option value="Private">🔒 Private URLs</option>
+                            <option value="InvalidFormat">❌ Invalid Format</option>
+                            <option value="NotFound">🚫 Not Found</option>
+                            <option value="Pending">⏳ Pending</option>
                         </select>
                     </div>
                     <div>

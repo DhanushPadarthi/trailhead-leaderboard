@@ -139,14 +139,40 @@ async def upload_file(background_tasks: BackgroundTasks, file: UploadFile = File
         if not url or pd.isna(url):
             continue
 
+        # Validate URL format - must end with an ID (alphanumeric string after last /)
+        import re
+        url_valid = False
+        if "trailblazer.me" in url or "salesforce.com/trailblazer" in url:
+            # Extract the last part after /
+            parts = url.rstrip('/').split('/')
+            if len(parts) > 0:
+                last_part = parts[-1]
+                # Check if it's an ID (alphanumeric, at least 8 chars)
+                if re.match(r'^[a-zA-Z0-9]{8,}$', last_part):
+                    url_valid = True
+        
         # Upsert student into DB as placeholder
-        # Default status: "Pending Verification" (treated as Private/Invalid until proven otherwise)
         student_doc = {
             "roll_number": roll,
             "profile_url": url,
             "name": name,
-            "scrape_error": "Pending Verification" # Initially assume private/invalid
         }
+        
+        if not url_valid:
+            # Invalid URL format - mark immediately
+            student_doc["scrape_error"] = "Invalid Profile URL Format"
+            student_doc["points"] = 0
+            student_doc["badges"] = 0
+            students_collection.update_one(
+                {"roll_number": roll},
+                {"$set": student_doc},
+                upsert=True
+            )
+            continue
+        else:
+            # Valid format - mark as pending verification
+            student_doc["scrape_error"] = "Pending Verification"
+        
         # Only set default points/badges if new document
         students_collection.update_one(
             {"roll_number": roll},
@@ -356,13 +382,23 @@ async def export_admin_list():
         error = str(s.get("scrape_error", ""))
         error_lower = error.lower()
         
-        # Categorize status
+        # Categorize status with improved logic
         status = "Valid"
         if error:
-            if "access denied" in error_lower or "private" in error_lower or "hidden" in error_lower or "pending" in error_lower:
-                status = "Private/Error"
-            elif "not found" in error_lower or "404" in error_lower or "navigation failed" in error_lower or "invalid" in error_lower:
-                status = "Invalid URL"
+            # Check for invalid URL format first
+            if "invalid profile url format" in error_lower:
+                status = "Invalid Profile Format"
+            # Check for private/access issues
+            elif ("private" in error_lower or "access" in error_lower or 
+                  "cannot access data" in error_lower or "hidden" in error_lower):
+                status = "Private URL"
+            # Check for pending verification
+            elif "pending" in error_lower:
+                status = "Pending Verification"
+            # Check for not found/404
+            elif "not found" in error_lower or "404" in error_lower:
+                status = "Profile Not Found"
+            # Any other error
             else:
                 status = "Error"
         
@@ -393,17 +429,25 @@ async def export_admin_list():
         
         # Separate sheets by status
         df_valid = df[df['Status'] == 'Valid']
-        df_private = df[df['Status'] == 'Private/Error']
-        df_invalid = df[df['Status'] == 'Invalid URL']
+        df_private = df[df['Status'] == 'Private URL']
+        df_invalid_format = df[df['Status'] == 'Invalid Profile Format']
+        df_not_found = df[df['Status'] == 'Profile Not Found']
+        df_pending = df[df['Status'] == 'Pending Verification']
         
         if not df_valid.empty:
             df_valid.to_excel(writer, index=False, sheet_name='Valid Profiles')
         
         if not df_private.empty:
-            df_private.to_excel(writer, index=False, sheet_name='Private Profiles')
+            df_private.to_excel(writer, index=False, sheet_name='Private URLs')
         
-        if not df_invalid.empty:
-            df_invalid.to_excel(writer, index=False, sheet_name='Invalid URLs')
+        if not df_invalid_format.empty:
+            df_invalid_format.to_excel(writer, index=False, sheet_name='Invalid Format')
+        
+        if not df_not_found.empty:
+            df_not_found.to_excel(writer, index=False, sheet_name='Not Found')
+        
+        if not df_pending.empty:
+            df_pending.to_excel(writer, index=False, sheet_name='Pending Verification')
     
     output.seek(0)
     

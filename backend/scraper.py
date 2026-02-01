@@ -193,6 +193,17 @@ class TrailheadScraper:
             except Exception as e:
                 logger.error(f"Status extraction error: {e}")
 
+            # Check if profile is valid format but returns 0 (likely private)
+            if final_points == 0 and final_badges == 0:
+                logger.warning(f"Valid URL but 0 points/badges - likely private: {url}")
+                return {
+                    "points": 0,
+                    "badges": 0,
+                    "certifications": [],
+                    "agentblazer_status": [],
+                    "error": "Private URL - Cannot Access Data"
+                }
+
             return {
                 "points": final_points,
                 "badges": final_badges,
