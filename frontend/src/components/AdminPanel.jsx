@@ -8,11 +8,19 @@ const AdminPanel = () => {
     const [status, setStatus] = useState(null);
     const [syncing, setSyncing] = useState(false);
     const [students, setStudents] = useState([]);
+    const [filteredStudents, setFilteredStudents] = useState([]);
     const [syncingStudent, setSyncingStudent] = useState(null);
+    const [searchTerm, setSearchTerm] = useState('');
+    const [statusFilter, setStatusFilter] = useState('All');
 
     useEffect(() => {
         fetchStudents();
     }, []);
+
+    useEffect(() => {
+        // Apply filters whenever students, searchTerm, or statusFilter changes
+        applyFilters();
+    }, [students, searchTerm, statusFilter]);
 
     const fetchStudents = async () => {
         try {
@@ -21,6 +29,39 @@ const AdminPanel = () => {
         } catch (err) {
             console.error('Error fetching students:', err);
         }
+    };
+
+    const applyFilters = () => {
+        let filtered = [...students];
+
+        // Search filter (name or roll number)
+        if (searchTerm) {
+            filtered = filtered.filter(s =>
+                s.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                s.roll_number?.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+        }
+
+        // Status filter
+        if (statusFilter !== 'All') {
+            filtered = filtered.filter(s => {
+                const error = s.scrape_error || '';
+                if (statusFilter === 'Valid') {
+                    return !error || error === '';
+                } else if (statusFilter === 'Private/Error') {
+                    return error.toLowerCase().includes('private') ||
+                        error.toLowerCase().includes('access') ||
+                        error.toLowerCase().includes('pending');
+                } else if (statusFilter === 'Invalid') {
+                    return error.toLowerCase().includes('not found') ||
+                        error.toLowerCase().includes('404') ||
+                        error.toLowerCase().includes('invalid');
+                }
+                return true;
+            });
+        }
+
+        setFilteredStudents(filtered);
     };
 
     const handleFileChange = (e) => {
@@ -140,7 +181,50 @@ const AdminPanel = () => {
             </div>
 
             <div style={{ background: 'rgba(30, 41, 59, 0.8)', padding: '30px', borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
-                <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '20px' }}>👥 Individual Student Sync</h3>
+                <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '20px' }}>👥 Individual Student Sync ({filteredStudents.length} students)</h3>
+
+                {/* Filter Controls */}
+                <div style={{ display: 'flex', gap: '15px', marginBottom: '20px', flexWrap: 'wrap' }}>
+                    <div style={{ flex: '1', minWidth: '200px' }}>
+                        <input
+                            type="text"
+                            placeholder="Search by name or roll number..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                            style={{
+                                width: '100%',
+                                padding: '10px 15px',
+                                background: 'rgba(15, 23, 42, 0.8)',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                borderRadius: '8px',
+                                color: '#e2e8f0',
+                                fontSize: '14px'
+                            }}
+                        />
+                    </div>
+                    <div style={{ minWidth: '180px' }}>
+                        <select
+                            value={statusFilter}
+                            onChange={(e) => setStatusFilter(e.target.value)}
+                            style={{
+                                width: '100%',
+                                padding: '10px 15px',
+                                background: 'rgba(15, 23, 42, 0.8)',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                borderRadius: '8px',
+                                color: '#e2e8f0',
+                                fontSize: '14px',
+                                cursor: 'pointer'
+                            }}
+                        >
+                            <option value="All">All Status</option>
+                            <option value="Valid">✓ Valid Profiles</option>
+                            <option value="Private/Error">🔒 Private/Error</option>
+                            <option value="Invalid">❌ Invalid URLs</option>
+                        </select>
+                    </div>
+                </div>
+
                 <div style={{ maxHeight: '500px', overflowY: 'auto' }}>
                     <table style={{ width: '100%', borderCollapse: 'collapse' }}>
                         <thead>
@@ -153,7 +237,7 @@ const AdminPanel = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {students.map((student) => (
+                            {filteredStudents.map((student) => (
                                 <tr key={student.roll_number} style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.05)' }}>
                                     <td style={{ padding: '10px', color: '#e2e8f0' }}>{student.roll_number}</td>
                                     <td style={{ padding: '10px', color: '#e2e8f0' }}>{student.name || 'N/A'}</td>
