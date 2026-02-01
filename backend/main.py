@@ -324,6 +324,94 @@ async def export_leaderboard():
     }
     return Response(content=output.getvalue(), media_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', headers=headers)
 
+@app.get("/admin/export")
+async def export_admin_list():
+    """
+    Export admin panel student list with detailed information.
+    """
+    students_cursor = students_collection.find({}, {"_id": 0}).sort([("roll_number", 1)])
+    students = list(students_cursor)
+    
+    all_students_data = []
+    
+    for s in students:
+        # Get agentblazer status
+        agentblazer = s.get("agentblazer_status", [])
+        champion = "✓" if "Champion 2026" in str(agentblazer) else ""
+        innovator = "✓" if "Innovator 2026" in str(agentblazer) else ""
+        legend = "✓" if "Legend 2026" in str(agentblazer) else ""
+        
+        # Determine current module
+        current_module = ""
+        if legend:
+            current_module = "Legend 2026"
+        elif innovator:
+            current_module = "Innovator 2026"
+        elif champion:
+            current_module = "Champion 2026"
+        else:
+            current_module = "Not Started"
+        
+        # Get error status
+        error = str(s.get("scrape_error", ""))
+        error_lower = error.lower()
+        
+        # Categorize status
+        status = "Valid"
+        if error:
+            if "access denied" in error_lower or "private" in error_lower or "hidden" in error_lower or "pending" in error_lower:
+                status = "Private/Error"
+            elif "not found" in error_lower or "404" in error_lower or "navigation failed" in error_lower or "invalid" in error_lower:
+                status = "Invalid URL"
+            else:
+                status = "Error"
+        
+        row = {
+            "Roll Number": s.get("roll_number", ""),
+            "Name": s.get("name", ""),
+            "Profile URL": s.get("profile_url", ""),
+            "Points": s.get("points", 0),
+            "Badges": s.get("badges", 0),
+            "Certifications": ", ".join(s.get("certifications", [])) if isinstance(s.get("certifications"), list) else "",
+            "Champion 2026": champion,
+            "Innovator 2026": innovator,
+            "Legend 2026": legend,
+            "Current Module": current_module,
+            "Status": status,
+            "Error Details": error if error else ""
+        }
+        
+        all_students_data.append(row)
+    
+    # Create DataFrame
+    df = pd.DataFrame(all_students_data)
+    
+    # Create Excel file
+    output = io.BytesIO()
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+        df.to_excel(writer, index=False, sheet_name='All Students')
+        
+        # Separate sheets by status
+        df_valid = df[df['Status'] == 'Valid']
+        df_private = df[df['Status'] == 'Private/Error']
+        df_invalid = df[df['Status'] == 'Invalid URL']
+        
+        if not df_valid.empty:
+            df_valid.to_excel(writer, index=False, sheet_name='Valid Profiles')
+        
+        if not df_private.empty:
+            df_private.to_excel(writer, index=False, sheet_name='Private Profiles')
+        
+        if not df_invalid.empty:
+            df_invalid.to_excel(writer, index=False, sheet_name='Invalid URLs')
+    
+    output.seek(0)
+    
+    headers = {
+        'Content-Disposition': 'attachment; filename="admin_student_list.xlsx"'
+    }
+    return Response(content=output.getvalue(), media_type='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', headers=headers)
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

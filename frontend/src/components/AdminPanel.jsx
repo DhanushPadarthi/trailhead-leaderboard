@@ -127,6 +127,16 @@ const AdminPanel = () => {
         }
     };
 
+    const handleAdminExport = async () => {
+        try {
+            const link = document.createElement('a');
+            link.href = `${api.defaults.baseURL}/admin/export`;
+            link.click();
+        } catch (err) {
+            setStatus({ type: 'error', message: 'Admin export failed' });
+        }
+    };
+
     return (
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
             <div style={{ marginBottom: '30px' }}>
@@ -222,6 +232,18 @@ const AdminPanel = () => {
                             <option value="Private/Error">🔒 Private/Error</option>
                             <option value="Invalid">❌ Invalid URLs</option>
                         </select>
+                    </div>
+                    <div>
+                        <button
+                            onClick={handleAdminExport}
+                            className="btn btn-admin"
+                            style={{
+                                padding: '10px 20px',
+                                whiteSpace: 'nowrap'
+                            }}
+                        >
+                            📥 Download Student List
+                        </button>
                     </div>
                 </div>
 
