@@ -71,6 +71,7 @@ const Leaderboard = () => {
     }, []);
 
     if (maintenance.enabled) {
+        console.log("Rendering maintenance mode:", maintenance); // Debug logging
         return (
             <div style={{
                 display: 'flex',
@@ -92,11 +93,16 @@ const Leaderboard = () => {
                 </h1>
                 <p style={{
                     fontSize: '1.2rem',
-                    color: '#94a3b8',
+                    color: '#e2e8f0', // Increased contrast to white/slate-200 from slate-400
                     maxWidth: '600px',
-                    lineHeight: '1.6'
+                    lineHeight: '1.6',
+                    background: 'rgba(0,0,0,0.2)', // Add background for readability
+                    padding: '10px',
+                    borderRadius: '8px'
                 }}>
-                    {maintenance.message || "We are currently updating the leaderboard. Please check back later."}
+                    {maintenance.message && maintenance.message.trim().length > 0
+                        ? maintenance.message
+                        : "We are currently updating the leaderboard. Please check back later."}
                 </p>
                 <div style={{
                     marginTop: '40px',
