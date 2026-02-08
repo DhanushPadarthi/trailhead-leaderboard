@@ -20,10 +20,37 @@ logger = logging.getLogger(__name__)
 # Load environment variables from .env file (for local development)
 load_dotenv()
 
-from database import students_collection
+from database import students_collection, settings_collection
 from scraper import scraper # Import the global scraper instance
 
 app = FastAPI()
+
+class MaintenanceSettings(BaseModel):
+    enabled: bool
+    message: str
+
+@app.post("/admin/maintenance")
+async def set_maintenance_mode(settings: MaintenanceSettings):
+    """
+    Toggle maintenance mode and set message.
+    """
+    settings_collection.update_one(
+        {"_id": "maintenance"},
+        {"$set": {"enabled": settings.enabled, "message": settings.message}},
+        upsert=True
+    )
+    return {"message": "Maintenance settings updated"}
+
+@app.get("/admin/maintenance")
+async def get_maintenance_mode():
+    """
+    Get current maintenance status.
+    """
+    settings = settings_collection.find_one({"_id": "maintenance"})
+    if settings:
+        return {"enabled": settings.get("enabled", False), "message": settings.get("message", "")}
+    return {"enabled": False, "message": ""}
+
 
 # Concurrency limit for scraping - balanced for reliability
 SCRAPE_SEMAPHORE = asyncio.Semaphore(5)  # Limit to 5 concurrent tabs for stability

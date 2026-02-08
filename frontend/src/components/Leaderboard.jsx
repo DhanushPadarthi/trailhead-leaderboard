@@ -7,6 +7,7 @@ const Leaderboard = () => {
     const [filteredStudents, setFilteredStudents] = useState([]); // Added for filtering
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [maintenance, setMaintenance] = useState({ enabled: false, message: '' });
 
     // Sort students by points (desc), then badges (desc)
     const sortStudents = (data) => {
@@ -24,6 +25,18 @@ const Leaderboard = () => {
         try {
             setLoading(true);
             setError(null);
+
+            // Check maintenance mode first
+            try {
+                const maintenanceRes = await api.get('/admin/maintenance');
+                if (maintenanceRes.data.enabled) {
+                    setMaintenance(maintenanceRes.data);
+                    setLoading(false);
+                    return; // Stop loading students
+                }
+            } catch (mErr) {
+                console.warn("Could not check maintenance status", mErr);
+            }
 
             // Try to fetch from API first
             try {
@@ -56,6 +69,47 @@ const Leaderboard = () => {
     useEffect(() => {
         fetchStudents();
     }, []);
+
+    if (maintenance.enabled) {
+        return (
+            <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                minHeight: '60vh',
+                textAlign: 'center',
+                padding: '20px'
+            }}>
+                <div style={{ fontSize: '64px', marginBottom: '20px' }}>🚧</div>
+                <h1 style={{
+                    fontSize: '2.5rem',
+                    fontWeight: 'bold',
+                    color: '#e2e8f0',
+                    marginBottom: '15px'
+                }}>
+                    Under Maintenance
+                </h1>
+                <p style={{
+                    fontSize: '1.2rem',
+                    color: '#94a3b8',
+                    maxWidth: '600px',
+                    lineHeight: '1.6'
+                }}>
+                    {maintenance.message || "We are currently updating the leaderboard. Please check back later."}
+                </p>
+                <div style={{
+                    marginTop: '40px',
+                    padding: '15px 30px',
+                    background: 'rgba(30, 41, 59, 0.5)',
+                    borderRadius: '10px',
+                    border: '1px solid rgba(255, 255, 255, 0.1)'
+                }}>
+                    Thank you for your patience! 🚀
+                </div>
+            </div>
+        );
+    }
 
     const calculateLevel = (points) => {
         const XP_PER_LEVEL = 5000;

@@ -19,6 +19,7 @@ except Exception as e:
     
 db = client[DB_NAME]
 students_collection = db["students"]
+settings_collection = db["settings"]
 
 def get_database():
     return db

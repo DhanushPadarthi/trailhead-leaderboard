@@ -12,10 +12,38 @@ const AdminPanel = () => {
     const [syncingStudent, setSyncingStudent] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
     const [statusFilter, setStatusFilter] = useState('All');
+    const [maintenance, setMaintenance] = useState({ enabled: false, message: '' });
+    const [updatingMaintenance, setUpdatingMaintenance] = useState(false);
 
     useEffect(() => {
         fetchStudents();
+        fetchMaintenanceStatus();
     }, []);
+
+    const fetchMaintenanceStatus = async () => {
+        try {
+            const res = await api.get('/admin/maintenance');
+            setMaintenance(res.data);
+        } catch (err) {
+            console.error('Failed to fetch maintenance status', err);
+        }
+    };
+
+    const handleMaintenanceUpdate = async () => {
+        setUpdatingMaintenance(true);
+        try {
+            await api.post('/admin/maintenance', maintenance);
+            setStatus({ type: 'success', message: 'Maintenance settings updated' });
+        } catch (err) {
+            setStatus({ type: 'error', message: 'Failed to update maintenance settings' });
+        } finally {
+            setUpdatingMaintenance(false);
+        }
+    };
+
+    const toggleMaintenance = () => {
+        setMaintenance(prev => ({ ...prev, enabled: !prev.enabled }));
+    };
 
     useEffect(() => {
         // Apply filters whenever students, searchTerm, or statusFilter changes
@@ -147,6 +175,51 @@ const AdminPanel = () => {
             <div style={{ marginBottom: '30px' }}>
                 <h2 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '10px' }}>Admin Panel</h2>
                 <p style={{ color: '#94a3b8' }}>Manage player data and system synchronization</p>
+            </div>
+
+            {/* Maintenance Mode Control */}
+            <div style={{ background: 'rgba(30, 41, 59, 0.8)', padding: '30px', borderRadius: '12px', marginBottom: '20px', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
+                <h3 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '20px' }}>🛠️ Maintenance Mode</h3>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <label className="switch">
+                            <input
+                                type="checkbox"
+                                checked={maintenance.enabled}
+                                onChange={toggleMaintenance}
+                            />
+                            <span className="slider round"></span>
+                        </label>
+                        <span style={{ color: maintenance.enabled ? '#ef4444' : '#10b981', fontWeight: '600' }}>
+                            {maintenance.enabled ? 'ENABLED' : 'DISABLED'}
+                        </span>
+                    </div>
+
+                    <div style={{ flex: 1, minWidth: '300px' }}>
+                        <input
+                            type="text"
+                            placeholder="Maintenance Message (e.g., 'Back at 9 PM')"
+                            value={maintenance.message}
+                            onChange={(e) => setMaintenance({ ...maintenance, message: e.target.value })}
+                            style={{
+                                width: '100%',
+                                padding: '10px 15px',
+                                background: 'rgba(15, 23, 42, 0.8)',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                borderRadius: '8px',
+                                color: '#e2e8f0'
+                            }}
+                        />
+                    </div>
+
+                    <button
+                        onClick={handleMaintenanceUpdate}
+                        className="btn btn-primary"
+                        disabled={updatingMaintenance}
+                    >
+                        {updatingMaintenance ? 'Saving...' : 'Save Settings'}
+                    </button>
+                </div>
             </div>
 
             <div style={{ background: 'rgba(30, 41, 59, 0.8)', padding: '30px', borderRadius: '12px', marginBottom: '20px', border: '1px solid rgba(255, 255, 255, 0.1)' }}>
