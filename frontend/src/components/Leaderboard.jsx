@@ -1,13 +1,15 @@
+
 import React, { useEffect, useState } from 'react';
 import api, { downloadExcel } from '../api';
 import TutorialModal from './TutorialModal';
+import maintenanceData from '../data/maintenance.json';
 
 const Leaderboard = () => {
     const [students, setStudents] = useState([]);
     const [filteredStudents, setFilteredStudents] = useState([]); // Added for filtering
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [maintenance, setMaintenance] = useState({ enabled: false, message: '' });
+    const [maintenance, setMaintenance] = useState(maintenanceData);
     const [filters, setFilters] = useState({
         name: '',
         status: 'All',
@@ -456,12 +458,12 @@ const Leaderboard = () => {
                         const status = getCompletionStatus(student.badges);
 
                         return (
-                            <tr key={student.roll_number} className={`table-row ${getRankClass(rank)}`}>
+                            <tr key={student.roll_number} className={`table - row ${getRankClass(rank)} `}>
                                 {/* Rank */}
                                 <td>
                                     <div className="rank-cell">
                                         <div className="rank-badge">
-                                            {getMedal(rank) || `#${rank}`}
+                                            {getMedal(rank) || `#${rank} `}
                                         </div>
                                     </div>
                                 </td>

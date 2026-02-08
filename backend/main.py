@@ -9,6 +9,8 @@ from typing import List, Optional
 from dotenv import load_dotenv
 import os
 import logging
+import json
+import subprocess
 
 # Configure logging for better visibility
 logging.basicConfig(
@@ -30,16 +32,41 @@ class MaintenanceSettings(BaseModel):
     message: str
 
 @app.post("/admin/maintenance")
-async def set_maintenance_mode(settings: MaintenanceSettings):
+async def set_maintenance_mode(settings: MaintenanceSettings, background_tasks: BackgroundTasks):
     """
-    Toggle maintenance mode and set message.
+    Toggle maintenance mode, update local JSON, and push to Git for Vercel deploy.
     """
+    # 1. Update MongoDB (local)
     settings_collection.update_one(
         {"_id": "maintenance"},
         {"$set": {"enabled": settings.enabled, "message": settings.message}},
         upsert=True
     )
-    return {"message": "Maintenance settings updated"}
+
+    # 2. Update frontend JSON file
+    file_path = os.path.join("..", "frontend", "src", "data", "maintenance.json")
+    try:
+        with open(file_path, "w") as f:
+            json.dump({"enabled": settings.enabled, "message": settings.message}, f, indent=4)
+        
+        # 3. Git Commit and Push (Background Task)
+        def git_push_maintenance():
+            try:
+                subprocess.run(["git", "add", "frontend/src/data/maintenance.json"], check=True)
+                msg = "Enable Maintenance Mode" if settings.enabled else "Disable Maintenance Mode"
+                subprocess.run(["git", "commit", "-m", f"chore: {msg}"], check=True)
+                subprocess.run(["git", "push"], check=True)
+                print(f"Successfully pushed maintenance update: {msg}")
+            except subprocess.CalledProcessError as e:
+                print(f"Git push failed: {e}")
+
+        background_tasks.add_task(git_push_maintenance)
+
+    except Exception as e:
+        print(f"Failed to update maintenance.json: {e}")
+        return {"message": "Updated DB but failed to update file/git.", "error": str(e)}
+
+    return {"message": "Maintenance settings updated. Deploying to Vercel..."}
 
 @app.get("/admin/maintenance")
 async def get_maintenance_mode():
