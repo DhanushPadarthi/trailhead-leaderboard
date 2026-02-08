@@ -8,6 +8,16 @@ const Leaderboard = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [maintenance, setMaintenance] = useState({ enabled: false, message: '' });
+    const [filters, setFilters] = useState({
+        name: '',
+        status: 'All',
+        xp: '',
+        badges: '',
+        certs: 'All',
+        champion: 'All',
+        innovator: 'All',
+        legend: 'All'
+    });
 
     // Sort students by points (desc), then badges (desc)
     const sortStudents = (data) => {
@@ -149,16 +159,7 @@ const Leaderboard = () => {
         }
     };
 
-    const [filters, setFilters] = useState({
-        name: '',
-        status: 'All',
-        xp: '',
-        badges: '',
-        certs: 'All',
-        champion: 'All',
-        innovator: 'All',
-        legend: 'All'
-    });
+
 
     const getAgentblazerLevel = (statusList) => {
         if (!statusList) return 0;
