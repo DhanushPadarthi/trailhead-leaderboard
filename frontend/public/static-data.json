@@ -385,17 +385,17 @@
         "rank": 23
     },
     {
-        "roll_number": "23R01A05A9",
+        "roll_number": "23R01A05Y6",
         "agentblazer_status": [
             "Innovator 2026"
         ],
-        "badges": 104,
+        "badges": 72,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
         ],
         "name": "",
-        "points": 34000,
-        "profile_url": "https://www.salesforce.com/trailblazer/xccv64ymjecrq5a6yw",
+        "points": 34100,
+        "profile_url": "https://www.salesforce.com/trailblazer/jpm3bsf8fptig62rc2",
         "scrape_error": null,
         "is_scraping": false,
         "last_updated": "2026-02-26T18:56:28.039261",
@@ -758,9 +758,7 @@
     },
     {
         "roll_number": "23r01a6656",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 65,
         "certifications": [],
         "name": "",
@@ -1201,9 +1199,7 @@
     },
     {
         "roll_number": "23R01A05E1",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 48,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -2073,9 +2069,7 @@
     },
     {
         "roll_number": "23R01A05T3",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 41,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -3420,9 +3414,7 @@
     },
     {
         "roll_number": "23R01A05L9",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 28,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -3808,9 +3800,7 @@
     },
     {
         "roll_number": "23R01A6714",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 25,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -7173,7 +7163,7 @@
         "is_scraping": true,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-02-22T11:30:21.043216",
+        "last_updated": "2026-02-26T14:09:16.403613",
         "rank": 477
     },
     {
