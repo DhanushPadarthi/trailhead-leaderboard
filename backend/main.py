@@ -299,9 +299,18 @@ async def force_scrape_all(background_tasks: BackgroundTasks):
 from fastapi.responses import Response
 
 @app.get("/export")
-async def export_leaderboard():
+async def export_leaderboard(
+    name: Optional[str] = None,
+    status: Optional[str] = "All",
+    xp: Optional[str] = None,
+    badges: Optional[str] = None,
+    certs: Optional[str] = "All",
+    champion: Optional[str] = "All",
+    innovator: Optional[str] = "All",
+    legend: Optional[str] = "All"
+):
     """
-    Export leaderboard to Excel.
+    Export leaderboard to Excel with filtering.
     """
     # Get all students sorted
     students_cursor = students_collection.find({}, {"_id": 0}).sort([("points", -1), ("badges", -1)])
@@ -321,9 +330,9 @@ async def export_leaderboard():
 
     for idx, s in enumerate(students):
         # Flatten stats
-        champion = "Yes" if "Champion 2026" in str(s.get("agentblazer_status", [])) else "No"
-        innovator = "Yes" if "Innovator 2026" in str(s.get("agentblazer_status", [])) else "No"
-        legend = "Yes" if "Legend 2026" in str(s.get("agentblazer_status", [])) else "No"
+        champion_status = "Yes" if any("Champion 2026" in status_s for status_s in s.get("agentblazer_status", [])) else "No"
+        innovator_status = "Yes" if any("Innovator 2026" in status_s for status_s in s.get("agentblazer_status", [])) else "No"
+        legend_status = "Yes" if any("Legend 2026" in status_s for status_s in s.get("agentblazer_status", [])) else "No"
         
         url = s.get("profile_url", "")
         # Basic validation check for Salesforce/Trailhead URL
@@ -344,27 +353,80 @@ async def export_leaderboard():
             "Points": s.get("points", 0),
             "Badges": s.get("badges", 0),
             "Certifications": ", ".join(s.get("certifications", [])) if isinstance(s.get("certifications"), list) else s.get("certifications", ""),
-            "Champion 2026": champion,
-            "Innovator 2026": innovator,
-            "Legend 2026": legend,
+            "Champion 2026": champion_status,
+            "Innovator 2026": innovator_status,
+            "Legend 2026": legend_status,
             "Profile URL": url,
             "Status": "Public",
             "Error Details": error if error and error != "None" else ""
         }
         
-        if not is_trailhead:
+        # APPLY FILTERS
+        if (not is_private and not is_invalid and is_trailhead):
+            # Name/Roll Filter
+            if name:
+                search_term = name.lower()
+                student_name = (s.get("name") or "").lower()
+                roll_num = (s.get("roll_number") or "").lower()
+                if search_term not in student_name and search_term not in roll_num:
+                    continue
+
+            # Status Filter (Complete >= 10 badges)
+            if status != "All":
+                is_complete = s.get("badges", 0) >= 10
+                current_status = "Complete" if is_complete else "In Progress"
+                if current_status != status:
+                    continue
+
+            # XP Filter
+            if xp and xp.strip() != "":
+                try:
+                    if s.get("points", 0) < int(xp):
+                        continue
+                except ValueError:
+                    pass
+
+            # Badges Filter
+            if badges and badges.strip() != "":
+                try:
+                    if s.get("badges", 0) < int(badges):
+                        continue
+                except ValueError:
+                    pass
+
+            # Certs Filter
+            if certs != "All":
+                has_certs = len(s.get("certifications", [])) > 0
+                if (certs == "Yes" and not has_certs) or (certs == "No" and has_certs):
+                    continue
+
+            # Agentblazer Status Filters
+            if champion != "All":
+                if (champion == "Yes" and champion_status == "No") or (champion == "No" and champion_status == "Yes"):
+                    continue
+            
+            if innovator != "All":
+                if (innovator == "Yes" and innovator_status == "No") or (innovator == "No" and innovator_status == "Yes"):
+                    continue
+            
+            if legend != "All":
+                if (legend == "Yes" and legend_status == "No") or (legend == "No" and legend_status == "Yes"):
+                    continue
+
+            # If all filters pass, add to public
+            row["Status"] = "Public"
+            public_data.append(row)
+        
+        elif not is_trailhead:
              row["Status"] = "Invalid URL Format"
              invalid_url_data.append(row)
+             # Don't filter out Invalid/Private from their specific sheets, they are report sheets
         elif is_private:
             row["Status"] = "Private Profile"
             private_data.append(row)
         elif is_invalid:
              row["Status"] = "Invalid/Not Found"
              invalid_url_data.append(row)
-        else:
-            # If points are 0 and no specific error, but loop isn't scraping, it might be an issue.
-            # But we leave it in public as "New/Empty" unless user explicitly wants 0 points separated.
-            public_data.append(row)
         
         # Track if this is a duplicate roll number
         if s.get("roll_number", "") in duplicate_rolls:
@@ -382,7 +444,7 @@ async def export_leaderboard():
         if not df_public.empty:
             df_public.to_excel(writer, index=False, sheet_name='Leaderboard')
         else:
-            pd.DataFrame({'Message': ['No public profiles found']}).to_excel(writer, sheet_name='Leaderboard')
+            pd.DataFrame({'Message': ['No matching profiles found with current filters']}).to_excel(writer, sheet_name='Leaderboard')
             
         if not df_private.empty:
             df_private.to_excel(writer, index=False, sheet_name='Private Profiles')

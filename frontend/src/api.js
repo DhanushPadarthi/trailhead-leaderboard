@@ -12,6 +12,6 @@ export const uploadFile = (formData) => api.post('/upload', formData, {
 });
 export const forceScrape = (rollNumber) => api.post(`/scrape/${rollNumber}`);
 export const scrapeAll = () => api.post('/scrape-all');
-export const downloadExcel = () => api.get('/export', { responseType: 'blob' });
+export const downloadExcel = (params) => api.get('/export', { params, responseType: 'blob' });
 
 export default api;

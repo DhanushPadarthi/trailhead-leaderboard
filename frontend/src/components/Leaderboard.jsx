@@ -344,7 +344,7 @@ const Leaderboard = () => {
                     className="btn btn-secondary"
                     onClick={async () => {
                         try {
-                            const response = await downloadExcel();
+                            const response = await downloadExcel(filters);
                             const url = window.URL.createObjectURL(new Blob([response.data]));
                             const link = document.createElement('a');
                             link.href = url;
