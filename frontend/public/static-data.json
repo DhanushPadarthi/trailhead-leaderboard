@@ -11,8 +11,25 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pb21oe3i3qnfuzfa37",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:21.133169",
+        "last_updated": "2026-04-26T13:46:58.060237",
         "rank": 1
+    },
+    {
+        "roll_number": "23R01A66J6",
+        "badges": 90,
+        "name": "",
+        "points": 54400,
+        "profile_url": "https://www.salesforce.com/trailblazer/keerthi-ai-ml",
+        "scrape_error": null,
+        "is_scraping": false,
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "last_updated": "2026-04-26T13:47:06.906043",
+        "rank": 2
     },
     {
         "roll_number": "23R01A05G9",
@@ -28,8 +45,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/bjh8348akpgk8km205",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:20.582473",
-        "rank": 2
+        "last_updated": "2026-04-26T13:46:58.274125",
+        "rank": 3
     },
     {
         "roll_number": "22R01A67E6",
@@ -45,8 +62,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/sblflfrdpz47665g4j",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:20.195546",
-        "rank": 3
+        "last_updated": "2026-04-26T13:46:58.105218",
+        "rank": 4
     },
     {
         "roll_number": "22R01A67J3",
@@ -62,8 +79,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/shaiksharif",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:28.428865",
-        "rank": 4
+        "last_updated": "2026-04-26T13:47:05.310257",
+        "rank": 5
     },
     {
         "roll_number": "23R01A05G1",
@@ -77,24 +94,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/y8ouz4degplu36vhxk",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:27.987587",
-        "rank": 5
-    },
-    {
-        "roll_number": "23R01A66J6",
-        "badges": 86,
-        "name": "",
-        "points": 50100,
-        "profile_url": "https://www.salesforce.com/trailblazer/keerthi-ai-ml",
-        "scrape_error": null,
-        "is_scraping": false,
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "last_updated": "2026-04-25T13:44:28.851951",
+        "last_updated": "2026-04-26T13:47:06.671546",
         "rank": 6
     },
     {
@@ -109,7 +109,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/swarajyalaxmip",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:36.007865",
+        "last_updated": "2026-04-26T13:47:12.483132",
         "rank": 7
     },
     {
@@ -126,7 +126,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ybmhddoq8a0la9t0qv",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:36.518653",
+        "last_updated": "2026-04-26T13:47:14.408847",
         "rank": 8
     },
     {
@@ -143,7 +143,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qipllc9jd4brwq2l2b",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:37.396444",
+        "last_updated": "2026-04-26T13:47:15.096181",
         "rank": 9
     },
     {
@@ -160,7 +160,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/o8tfrugymg48yaxaz2",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:43.454874",
+        "last_updated": "2026-04-26T13:47:19.681145",
         "rank": 10
     },
     {
@@ -177,7 +177,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pranavimaddineni",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:43.981505",
+        "last_updated": "2026-04-26T13:47:22.119996",
         "rank": 11
     },
     {
@@ -194,7 +194,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/l367pi1pielc9pnujv",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:46.038520",
+        "last_updated": "2026-04-26T13:47:23.032093",
         "rank": 12
     },
     {
@@ -211,7 +211,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pooja742",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:50.650408",
+        "last_updated": "2026-04-26T13:47:26.727930",
         "rank": 13
     },
     {
@@ -228,7 +228,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/jt49csle9zj41r08ci",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:51.513722",
+        "last_updated": "2026-04-26T13:47:29.402292",
         "rank": 14
     },
     {
@@ -245,7 +245,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ynraz9aw8e7i5fha1g",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:53.996832",
+        "last_updated": "2026-04-26T13:47:30.996303",
         "rank": 15
     },
     {
@@ -262,7 +262,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/hry523da8q4wfx8cpi",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:58.330341",
+        "last_updated": "2026-04-26T13:47:33.968537",
         "rank": 16
     },
     {
@@ -279,7 +279,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qyvvej6qpncy26hjbz",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:44:58.729901",
+        "last_updated": "2026-04-26T13:47:36.518872",
         "rank": 17
     },
     {
@@ -296,7 +296,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yma2phiggrxmr1t199",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:01.748029",
+        "last_updated": "2026-04-26T13:47:38.257786",
         "rank": 18
     },
     {
@@ -313,7 +313,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/m792401ycog4rqgstr",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:05.646553",
+        "last_updated": "2026-04-26T13:47:41.302124",
         "rank": 19
     },
     {
@@ -330,7 +330,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xihuor923gk1uztx59",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:06.388149",
+        "last_updated": "2026-04-26T13:47:44.608398",
         "rank": 20
     },
     {
@@ -347,7 +347,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vugf0hl8z5fg31dgyv",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:09.657828",
+        "last_updated": "2026-04-26T13:47:46.225480",
         "rank": 21
     },
     {
@@ -364,7 +364,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/dolr5etiqjk1pzeznb",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:12.915282",
+        "last_updated": "2026-04-26T13:47:48.517501",
         "rank": 22
     },
     {
@@ -381,7 +381,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/gth3fl6n8k8rwsy0vo",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:13.785623",
+        "last_updated": "2026-04-26T13:47:51.811979",
         "rank": 23
     },
     {
@@ -398,7 +398,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/py1eenwehhjyeh9vaa",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:16.946635",
+        "last_updated": "2026-04-26T13:47:53.827209",
         "rank": 24
     },
     {
@@ -415,14 +415,12 @@
         "profile_url": "https://www.salesforce.com/trailblazer/gmkn6tl81vlnqu233z",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:20.105380",
+        "last_updated": "2026-04-26T13:47:56.140539",
         "rank": 25
     },
     {
         "roll_number": "23R01A05B7",
-        "agentblazer_status": [
-            "Legend 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 73,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -432,42 +430,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eduzqg9kkkdb1icxqf",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:21.121993",
+        "last_updated": "2026-04-26T13:47:59.143031",
         "rank": 26
-    },
-    {
-        "roll_number": "23R01A05Y6",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
-        "badges": 73,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 34200,
-        "profile_url": "https://www.salesforce.com/trailblazer/jpm3bsf8fptig62rc2",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:24.137355",
-        "rank": 27
-    },
-    {
-        "roll_number": "23R01A05Y6",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
-        "badges": 73,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 34200,
-        "profile_url": "https://www.salesforce.com/trailblazer/jpm3bsf8fptig62rc2",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:27.199906",
-        "rank": 28
     },
     {
         "roll_number": "22R01A6797",
@@ -483,8 +447,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/my3gx3tx5ot9yq1xja",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:28.750709",
-        "rank": 29
+        "last_updated": "2026-04-26T13:48:06.719608",
+        "rank": 27
     },
     {
         "roll_number": "22R01A05C3",
@@ -500,8 +464,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/jpxcj7okcjlvx8i883",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:31.278315",
-        "rank": 30
+        "last_updated": "2026-04-26T13:48:10.703033",
+        "rank": 28
     },
     {
         "roll_number": "23R01A0570",
@@ -517,8 +481,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rx1osum6iooqp6vduz",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:34.458975",
-        "rank": 31
+        "last_updated": "2026-04-26T13:48:13.800091",
+        "rank": 29
     },
     {
         "roll_number": "23R01A0567",
@@ -534,8 +498,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ps8bzje2xzz87eq53r",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:36.486838",
-        "rank": 32
+        "last_updated": "2026-04-26T13:48:14.062592",
+        "rank": 30
     },
     {
         "roll_number": "23R01A0581",
@@ -551,8 +515,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xf98kzz4ft58kfcch3",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:38.488812",
-        "rank": 33
+        "last_updated": "2026-04-26T13:48:17.866444",
+        "rank": 31
     },
     {
         "roll_number": "23R01A05D3",
@@ -568,8 +532,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qrzwve1voiv9m0gsam",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:41.559021",
-        "rank": 34
+        "last_updated": "2026-04-26T13:48:21.260361",
+        "rank": 32
     },
     {
         "roll_number": "23R01A05M6",
@@ -585,8 +549,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cxryjtfh5bxeer3qpu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:43.553529",
-        "rank": 35
+        "last_updated": "2026-04-26T13:48:21.396365",
+        "rank": 33
     },
     {
         "roll_number": "23R01A05V7",
@@ -602,8 +566,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/u29hhc4q0333l3h61n",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:45.778134",
-        "rank": 36
+        "last_updated": "2026-04-26T13:48:25.154556",
+        "rank": 34
     },
     {
         "roll_number": "23R01A05D5",
@@ -619,8 +583,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/gpk3pw37mkev6nzyef",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:48.723982",
-        "rank": 37
+        "last_updated": "2026-04-26T13:48:28.352037",
+        "rank": 35
     },
     {
         "roll_number": "23R01A05J4",
@@ -636,8 +600,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/g2e0f49c8motbabnbp",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:50.699758",
-        "rank": 38
+        "last_updated": "2026-04-26T13:48:28.736520",
+        "rank": 36
     },
     {
         "roll_number": "23R01A05DE",
@@ -653,8 +617,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ahot5ykc4k24a9d18h",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:53.140092",
-        "rank": 39
+        "last_updated": "2026-04-26T13:48:32.434384",
+        "rank": 37
     },
     {
         "roll_number": "23R01A05G2",
@@ -670,12 +634,14 @@
         "profile_url": "https://www.salesforce.com/trailblazer/gfst6w00iqr7iryp27",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:55.879962",
-        "rank": 40
+        "last_updated": "2026-04-26T13:48:35.937218",
+        "rank": 38
     },
     {
         "roll_number": "23R01A05EC",
-        "agentblazer_status": [],
+        "agentblazer_status": [
+            "Legend 2026"
+        ],
         "badges": 70,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -685,7 +651,39 @@
         "profile_url": "https://www.salesforce.com/trailblazer/q7x662bbbaidcnpqea",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:45:57.908927",
+        "last_updated": "2026-04-26T13:48:36.101585",
+        "rank": 39
+    },
+    {
+        "roll_number": "24r05a0533",
+        "agentblazer_status": [
+            "Innovator 2026"
+        ],
+        "badges": 73,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 32300,
+        "profile_url": "https://www.salesforce.com/trailblazer/vjl14fhqey6asp27n8",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:15.209241",
+        "rank": 40
+    },
+    {
+        "roll_number": "22r01a0409",
+        "agentblazer_status": [
+            "Innovator 2026"
+        ],
+        "badges": 76,
+        "certifications": [],
+        "name": "",
+        "points": 32200,
+        "profile_url": "https://www.salesforce.com/trailblazer/u2tdt4cej81upcsm6d",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:18.278500",
         "rank": 41
     },
     {
@@ -700,7 +698,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/oqeq6ggw564p1u0gra",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:06.167202",
+        "last_updated": "2026-04-26T13:48:39.642772",
         "rank": 42
     },
     {
@@ -717,7 +715,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/z56aojwy8u2k14dm77",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:09.887800",
+        "last_updated": "2026-04-26T13:48:43.298031",
         "rank": 43
     },
     {
@@ -734,7 +732,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cet97kcvuf9zt91cbu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:12.607287",
+        "last_updated": "2026-04-26T13:48:43.422994",
         "rank": 44
     },
     {
@@ -751,7 +749,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ee2zp6tjqz1m68aq2l",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:13.593711",
+        "last_updated": "2026-04-26T13:48:47.654640",
         "rank": 45
     },
     {
@@ -768,7 +766,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/l1re660ovd6u4w8hqj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:17.001275",
+        "last_updated": "2026-04-26T13:48:50.622013",
         "rank": 46
     },
     {
@@ -785,21 +783,42 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xqn717lhvcs9gbiy04",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:19.556678",
+        "last_updated": "2026-04-26T13:48:50.799216",
         "rank": 47
     },
     {
         "roll_number": "23R01A05B8",
-        "agentblazer_status": [],
+        "agentblazer_status": [
+            "Innovator 2026"
+        ],
         "badges": 68,
-        "certifications": [],
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
         "name": "",
         "points": 30750,
         "profile_url": "https://www.salesforce.com/trailblazer/qj7r69ckoyey2udl94",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:59.942876",
+        "last_updated": "2026-04-26T13:48:54.550669",
         "rank": 48
+    },
+    {
+        "roll_number": "23R01A05Y0",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 101,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 30550,
+        "profile_url": "https://www.salesforce.com/trailblazer/krg24b5lohz24jrchn",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:02:08.828197",
+        "rank": 49
     },
     {
         "roll_number": "23R01A0568",
@@ -815,8 +834,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/b3khwlridu78sjnjon",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:21.096520",
-        "rank": 49
+        "last_updated": "2026-04-26T13:48:58.125518",
+        "rank": 50
     },
     {
         "roll_number": "23R01A05E9",
@@ -832,24 +851,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/y0szsyljd6ajzikays",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:24.134618",
-        "rank": 50
-    },
-    {
-        "roll_number": "23R01A05N4",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
-        "badges": 68,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 29450,
-        "profile_url": "https://www.salesforce.com/trailblazer/kh0o45dlh2f0ikbve7",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:26.804545",
+        "last_updated": "2026-04-26T13:48:58.106889",
         "rank": 51
     },
     {
@@ -866,25 +868,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/shravani566",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:28.403181",
+        "last_updated": "2026-04-26T13:49:08.603339",
         "rank": 52
-    },
-    {
-        "roll_number": "23R01A05E4",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
-        "badges": 73,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 27300,
-        "profile_url": "https://www.salesforce.com/trailblazer/dsn60skj7tfpo5hgkn",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:31.387777",
-        "rank": 53
     },
     {
         "roll_number": "23R01A6745",
@@ -900,8 +885,8 @@
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
         ],
-        "last_updated": "2026-04-25T13:46:33.796424",
-        "rank": 54
+        "last_updated": "2026-04-26T13:49:11.988208",
+        "rank": 53
     },
     {
         "roll_number": "22R01A0521",
@@ -917,8 +902,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/dhakshayani521",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:35.842649",
-        "rank": 55
+        "last_updated": "2026-04-26T13:49:15.855473",
+        "rank": 54
     },
     {
         "roll_number": "22R01A67G9",
@@ -932,8 +917,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/d91qoor11fgzszklln",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:38.465111",
-        "rank": 56
+        "last_updated": "2026-04-26T13:49:16.074693",
+        "rank": 55
     },
     {
         "roll_number": "23r01a0496",
@@ -947,8 +932,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/upqkdv7tdakg07blik",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:40.924811",
-        "rank": 57
+        "last_updated": "2026-04-26T13:49:19.438872",
+        "rank": 56
     },
     {
         "roll_number": "23r01a66h9",
@@ -962,8 +947,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/s4zxg3hgw66xzxfajf",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:43.159591",
-        "rank": 58
+        "last_updated": "2026-04-26T13:49:23.351938",
+        "rank": 57
     },
     {
         "roll_number": "23R01A0507",
@@ -979,8 +964,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/h69445brqgrv8cpusp",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:45.875558",
-        "rank": 59
+        "last_updated": "2026-04-26T13:49:23.557116",
+        "rank": 58
     },
     {
         "roll_number": "23R01A67A7",
@@ -996,8 +981,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/sohail786",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:47.982342",
-        "rank": 60
+        "last_updated": "2026-04-26T13:49:27.021718",
+        "rank": 59
     },
     {
         "roll_number": "23R01A6614",
@@ -1011,8 +996,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/f2s7a4e1rnrpilquon",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:50.196364",
-        "rank": 61
+        "last_updated": "2026-04-26T13:49:30.521146",
+        "rank": 60
     },
     {
         "roll_number": "23R01A05Q1",
@@ -1028,8 +1013,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cxd1aq1y06ndtggw8b",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:53.233660",
-        "rank": 62
+        "last_updated": "2026-04-26T13:49:30.755706",
+        "rank": 61
     },
     {
         "roll_number": "23R01A05G5",
@@ -1043,8 +1028,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/c70n70xt14vbdubtvm",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:55.298412",
-        "rank": 63
+        "last_updated": "2026-04-26T13:49:34.668261",
+        "rank": 62
     },
     {
         "roll_number": "23R01A66E8",
@@ -1060,8 +1045,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/kaluvacharlagowripriya",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:57.453890",
-        "rank": 64
+        "last_updated": "2026-04-26T13:49:38.222830",
+        "rank": 63
     },
     {
         "roll_number": "22R01A05A4",
@@ -1071,12 +1056,46 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cxkgvkh5w7kunkzy49?subject=URL",
         "scrape_error": null,
         "is_scraping": false,
-        "agentblazer_status": [],
+        "agentblazer_status": [
+            "Innovator 2026"
+        ],
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
         ],
-        "last_updated": "2026-04-25T13:47:00.279848",
+        "last_updated": "2026-04-26T13:49:38.255878",
+        "rank": 64
+    },
+    {
+        "roll_number": "23R01A05A0",
+        "agentblazer_status": [
+            "Innovator 2026"
+        ],
+        "badges": 57,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 22200,
+        "profile_url": "https://www.salesforce.com/trailblazer/d28uru1de38c7d8p0s",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:22.782352",
         "rank": 65
+    },
+    {
+        "roll_number": "23r01a0533",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 43,
+        "certifications": [],
+        "name": "",
+        "points": 22100,
+        "profile_url": "https://www.salesforce.com/trailblazer/un15uhmlv3h7fcs5bg",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:22.575252",
+        "rank": 66
     },
     {
         "roll_number": "24R05A0530",
@@ -1092,8 +1111,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/jsr296269hr2p05rut",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:07.739769",
-        "rank": 66
+        "last_updated": "2026-04-26T13:49:42.105893",
+        "rank": 67
     },
     {
         "roll_number": "22R01A0454",
@@ -1107,8 +1126,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qimlaztjyt9sfjqro6",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:12.221661",
-        "rank": 67
+        "last_updated": "2026-04-26T13:49:45.625858",
+        "rank": 68
     },
     {
         "roll_number": "23R01A05M3",
@@ -1124,8 +1143,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/y0u905bbbp7hw2v930",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:14.826755",
-        "rank": 68
+        "last_updated": "2026-04-26T13:49:45.867209",
+        "rank": 69
     },
     {
         "roll_number": "24R05A0538",
@@ -1141,8 +1160,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ra8scmfvlns3w55172",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:14.996469",
-        "rank": 69
+        "last_updated": "2026-04-26T13:49:49.459243",
+        "rank": 70
     },
     {
         "roll_number": "22R01A67H3",
@@ -1158,8 +1177,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/brpyreejyi5st95id2",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:19.375098",
-        "rank": 70
+        "last_updated": "2026-04-26T13:49:53.633175",
+        "rank": 71
     },
     {
         "roll_number": "22R01A0518",
@@ -1175,8 +1194,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/butmuh0phwd69lhefc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:21.937500",
-        "rank": 71
+        "last_updated": "2026-04-26T13:49:53.500316",
+        "rank": 72
     },
     {
         "roll_number": "23R01A05E1",
@@ -1192,8 +1211,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/oimr1ko73dawphqb2w",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:22.718202",
-        "rank": 72
+        "last_updated": "2026-04-26T13:49:57.051853",
+        "rank": 73
     },
     {
         "roll_number": "23R01A05L7",
@@ -1209,8 +1228,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pzjga0m8hh2tjoye6o",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:26.352707",
-        "rank": 73
+        "last_updated": "2026-04-26T13:50:00.739145",
+        "rank": 74
     },
     {
         "roll_number": "23R01A05AH",
@@ -1226,24 +1245,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/u6f89dbqtnbri81vgk",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:29.230379",
-        "rank": 74
-    },
-    {
-        "roll_number": "23r01a6662",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
-        "badges": 53,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 20225,
-        "profile_url": "https://www.salesforce.com/trailblazer/pxjhgruoy8bb6q5wgp",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:30.527328",
+        "last_updated": "2026-04-26T13:50:00.875624",
         "rank": 75
     },
     {
@@ -1260,7 +1262,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vicrj2sj65um1aqyuj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:33.624994",
+        "last_updated": "2026-04-26T13:50:08.015367",
         "rank": 76
     },
     {
@@ -1275,7 +1277,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/d0r2n3dw04qifckg29",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:36.840537",
+        "last_updated": "2026-04-26T13:50:08.206984",
         "rank": 77
     },
     {
@@ -1292,7 +1294,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/lquih7wlrcam6j6r7m",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:38.290609",
+        "last_updated": "2026-04-26T13:50:14.136792",
         "rank": 78
     },
     {
@@ -1307,7 +1309,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/v6gd7mz14yahvb8xhx",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:40.977651",
+        "last_updated": "2026-04-26T13:50:15.624563",
         "rank": 79
     },
     {
@@ -1324,7 +1326,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qq44m9vn0t04fqtws3",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:44.253362",
+        "last_updated": "2026-04-26T13:50:16.327867",
         "rank": 80
     },
     {
@@ -1341,7 +1343,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/sawsq7g4x6vqfxjgx4",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:46.004623",
+        "last_updated": "2026-04-26T13:50:21.335145",
         "rank": 81
     },
     {
@@ -1358,7 +1360,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/o4ksem9wo36jutzs1s",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:48.230761",
+        "last_updated": "2026-04-26T13:50:23.181949",
         "rank": 82
     },
     {
@@ -1375,7 +1377,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/f0l8gne5k03dl9e865",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:51.693785",
+        "last_updated": "2026-04-26T13:50:23.782211",
         "rank": 83
     },
     {
@@ -1390,7 +1392,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/mcsatlg7me2qo1de25",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:53.762331",
+        "last_updated": "2026-04-26T13:50:28.620014",
         "rank": 84
     },
     {
@@ -1405,7 +1407,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/geyoyhk2ckf7g0cw5e",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:55.989871",
+        "last_updated": "2026-04-26T13:50:31.012392",
         "rank": 85
     },
     {
@@ -1422,7 +1424,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/kp8i5br4tuykjpnvv9",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:58.779830",
+        "last_updated": "2026-04-26T13:50:31.490298",
         "rank": 86
     },
     {
@@ -1437,8 +1439,25 @@
         "profile_url": "https://www.salesforce.com/trailblazer/chandanapragaturi",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:00.977636",
+        "last_updated": "2026-04-26T13:50:36.327297",
         "rank": 87
+    },
+    {
+        "roll_number": "23R01A05Y2",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 59,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 17575,
+        "profile_url": "https://www.salesforce.com/trailblazer/q8j7e5hi5r5d1ebzs9",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:25.842101",
+        "rank": 88
     },
     {
         "roll_number": "23r01a04c2",
@@ -1452,8 +1471,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ahcbwo2d8mxg2mqlei",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:05.806250",
-        "rank": 88
+        "last_updated": "2026-04-26T13:50:38.448909",
+        "rank": 89
     },
     {
         "roll_number": "23R01A0554",
@@ -1469,8 +1488,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/z22c67ohbaxvsx1nw3",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:08.096533",
-        "rank": 89
+        "last_updated": "2026-04-26T13:50:39.222886",
+        "rank": 90
     },
     {
         "roll_number": "Balla Vaishnavi",
@@ -1486,8 +1505,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/zj820jsjtv4dy5s3qj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:12.930848",
-        "rank": 90
+        "last_updated": "2026-04-26T13:50:43.492116",
+        "rank": 91
     },
     {
         "roll_number": "23R01A05N6",
@@ -1501,8 +1520,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/r2ldikn9kb7q37psmh",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:13.225853",
-        "rank": 91
+        "last_updated": "2026-04-26T13:50:45.772957",
+        "rank": 92
     },
     {
         "roll_number": "22R01A6232",
@@ -1518,8 +1537,25 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xdg6urkxsul4x1logg",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:16.213209",
-        "rank": 92
+        "last_updated": "2026-04-26T13:50:46.837935",
+        "rank": 93
+    },
+    {
+        "roll_number": "23R01A66P7",
+        "agentblazer_status": [
+            "Innovator 2026"
+        ],
+        "badges": 45,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 16825,
+        "profile_url": "https://www.salesforce.com/trailblazer/klu5sbii9vtkipevb0",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:02:13.403187",
+        "rank": 94
     },
     {
         "roll_number": "23R05A6609",
@@ -1533,8 +1569,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/dv46hjufbhxvujqz0d",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:20.150383",
-        "rank": 93
+        "last_updated": "2026-04-26T13:50:50.464736",
+        "rank": 95
     },
     {
         "roll_number": "23R01A0597",
@@ -1550,8 +1586,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/baza41eif36hbth3qs",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:20.435302",
-        "rank": 94
+        "last_updated": "2026-04-26T13:50:53.089695",
+        "rank": 96
     },
     {
         "roll_number": "23R01A66H2",
@@ -1567,8 +1603,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/sazlecrhdrtvrs2dm8",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:23.650818",
-        "rank": 95
+        "last_updated": "2026-04-26T13:50:54.769213",
+        "rank": 97
     },
     {
         "roll_number": "23R01A05M9",
@@ -1584,8 +1620,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nspvupuu8l52mbv2pl",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:27.841205",
-        "rank": 96
+        "last_updated": "2026-04-26T13:50:57.825015",
+        "rank": 98
     },
     {
         "roll_number": "23R01A05P5",
@@ -1601,39 +1637,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rf9i8ijwvj9pzyrqtw",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:27.835221",
-        "rank": 97
-    },
-    {
-        "roll_number": "23R01A6765",
-        "agentblazer_status": [
-            "Innovator 2026"
-        ],
-        "badges": 43,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 16275,
-        "profile_url": "https://www.salesforce.com/trailblazer/jxgenzfga1h4a2nsgj",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:31.159274",
-        "rank": 98
-    },
-    {
-        "roll_number": "23R01A05BT",
-        "agentblazer_status": [],
-        "badges": 63,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 16075,
-        "profile_url": "https://www.salesforce.com/trailblazer/cby1mryx400wauntdw",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:34.855085",
+        "last_updated": "2026-04-26T13:51:00.595156",
         "rank": 99
     },
     {
@@ -1648,7 +1652,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/m2zfzn21ppbye7crc5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:35.291193",
+        "last_updated": "2026-04-26T13:51:08.047410",
         "rank": 100
     },
     {
@@ -1663,7 +1667,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/lui2hs8qleme8f1gs5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:38.907727",
+        "last_updated": "2026-04-26T13:51:12.396903",
         "rank": 101
     },
     {
@@ -1680,7 +1684,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/hq4q3lx7ljdkg96z9v",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:42.524562",
+        "last_updated": "2026-04-26T13:51:15.482480",
         "rank": 102
     },
     {
@@ -1695,7 +1699,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/satxwin6x50teizzlv",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:42.949137",
+        "last_updated": "2026-04-26T13:51:15.631624",
         "rank": 103
     },
     {
@@ -1712,7 +1716,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/kuttuifjknuoqi3pjw",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:46.427295",
+        "last_updated": "2026-04-26T13:51:19.699530",
         "rank": 104
     },
     {
@@ -1727,7 +1731,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/diwbjcyzeisxvscqhu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:49.661065",
+        "last_updated": "2026-04-26T13:51:22.996262",
         "rank": 105
     },
     {
@@ -1744,7 +1748,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xk8ktt6vs6463achlj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:50.733702",
+        "last_updated": "2026-04-26T13:51:23.212142",
         "rank": 106
     },
     {
@@ -1759,7 +1763,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yx8kbwm5vqjv0at87k",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:53.803483",
+        "last_updated": "2026-04-26T13:51:26.928157",
         "rank": 107
     },
     {
@@ -1776,7 +1780,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xsfv7mzy6r50wr1dfj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:56.897650",
+        "last_updated": "2026-04-26T13:51:30.129802",
         "rank": 108
     },
     {
@@ -1791,8 +1795,42 @@
         "profile_url": "https://www.salesforce.com/trailblazer/omkarpatil4b7",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:58.454759",
+        "last_updated": "2026-04-26T13:51:30.494969",
         "rank": 109
+    },
+    {
+        "roll_number": "23R01A6714",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 35,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 14700,
+        "profile_url": "https://www.salesforce.com/trailblazer/bchsngid5m4pdsz8sm",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:29.752908",
+        "rank": 110
+    },
+    {
+        "roll_number": "23R01A04A7",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 59,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 14000,
+        "profile_url": "https://www.salesforce.com/trailblazer/tp07f85gvemshewhrx",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:29.926122",
+        "rank": 111
     },
     {
         "roll_number": "23R01A67B2",
@@ -1808,8 +1846,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/malnhs8gk9cox7hwgj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:06.144178",
-        "rank": 110
+        "last_updated": "2026-04-26T13:51:34.176444",
+        "rank": 112
     },
     {
         "roll_number": "22R01A0573",
@@ -1821,8 +1859,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/zn678gbuou8fr64qtw",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:10.514206",
-        "rank": 111
+        "last_updated": "2026-04-26T13:51:37.392835",
+        "rank": 113
     },
     {
         "roll_number": "23R01A05J1",
@@ -1838,8 +1876,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/iy74d5ulsiboqsdzfn",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:13.805973",
-        "rank": 112
+        "last_updated": "2026-04-26T13:51:38.092220",
+        "rank": 114
     },
     {
         "roll_number": "22r01a66e3",
@@ -1853,8 +1891,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/euws5m9bufn29sbob0",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:14.168603",
-        "rank": 113
+        "last_updated": "2026-04-26T13:51:41.481300",
+        "rank": 115
     },
     {
         "roll_number": "23R01A05DY",
@@ -1868,8 +1906,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/y74g31mty51r88tjkf",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:17.849526",
-        "rank": 114
+        "last_updated": "2026-04-26T13:51:44.603402",
+        "rank": 116
     },
     {
         "roll_number": "Barad Vishal",
@@ -1883,8 +1921,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/obvfnz8ik0i7bj8usg",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:07.763652",
-        "rank": 115
+        "last_updated": "2026-04-26T13:51:46.010012",
+        "rank": 117
     },
     {
         "roll_number": "23R01A66X2",
@@ -1898,8 +1936,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/je3igoqgjos8ny35w8",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:21.592737",
-        "rank": 116
+        "last_updated": "2026-04-26T13:51:49.142272",
+        "rank": 118
     },
     {
         "roll_number": "23R01A0526",
@@ -1913,8 +1951,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nyzdn0xy9rqfdqyh93",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:21.608450",
-        "rank": 117
+        "last_updated": "2026-04-26T13:51:51.978932",
+        "rank": 119
     },
     {
         "roll_number": "22R01A0575",
@@ -1928,8 +1966,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qkpmtmdwmbzcoc9rm5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:25.729249",
-        "rank": 118
+        "last_updated": "2026-04-26T13:51:53.452655",
+        "rank": 120
     },
     {
         "roll_number": "22R01A05D6",
@@ -1943,8 +1981,8 @@
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
         ],
-        "last_updated": "2026-04-25T13:49:29.126398",
-        "rank": 119
+        "last_updated": "2026-04-26T13:51:56.570946",
+        "rank": 121
     },
     {
         "roll_number": "22R01A73A3",
@@ -1960,8 +1998,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yq4r1bko3gl2f5q4id",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:29.190427",
-        "rank": 120
+        "last_updated": "2026-04-26T13:51:59.418844",
+        "rank": 122
     },
     {
         "roll_number": "23R01A66P5",
@@ -1977,8 +2015,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/q00e8fjui06a0v6s0m",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:33.075652",
-        "rank": 121
+        "last_updated": "2026-04-26T13:52:00.983865",
+        "rank": 123
     },
     {
         "roll_number": "23r01a05dd",
@@ -1992,8 +2030,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/mjks1r2fv3izkobli4",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:36.656373",
-        "rank": 122
+        "last_updated": "2026-04-26T13:52:03.833795",
+        "rank": 124
     },
     {
         "roll_number": "23R01A6666",
@@ -2007,8 +2045,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/bovanshikareddy",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:36.724088",
-        "rank": 123
+        "last_updated": "2026-04-26T13:52:06.606047",
+        "rank": 125
     },
     {
         "roll_number": "22R01A66B1",
@@ -2024,8 +2062,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/raghumithrareddypinnapureddy5g9719pzv7sy",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:40.491481",
-        "rank": 124
+        "last_updated": "2026-04-26T13:52:08.426457",
+        "rank": 126
     },
     {
         "roll_number": "23R01A05T3",
@@ -2041,8 +2079,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/adcbrck6ewb5s2faks",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:44.136836",
-        "rank": 125
+        "last_updated": "2026-04-26T13:52:11.191375",
+        "rank": 127
     },
     {
         "roll_number": "23r01a05t5",
@@ -2058,8 +2096,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ogd2482xaijgprik7r",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:43.909667",
-        "rank": 126
+        "last_updated": "2026-04-26T13:52:13.665062",
+        "rank": 128
     },
     {
         "roll_number": "23R01A6719",
@@ -2073,8 +2111,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cuwr11exqvxtwn95bc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:47.784895",
-        "rank": 127
+        "last_updated": "2026-04-26T13:52:16.027544",
+        "rank": 129
     },
     {
         "roll_number": "23r01a0448",
@@ -2088,8 +2126,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/bfqvj8wq0374ssifes",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:51.154277",
-        "rank": 128
+        "last_updated": "2026-04-26T13:52:18.403602",
+        "rank": 130
     },
     {
         "roll_number": "23R01A66K0",
@@ -2105,8 +2143,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ge7ay7axifu8fwb0pl",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:51.482943",
-        "rank": 129
+        "last_updated": "2026-04-26T13:52:20.811971",
+        "rank": 131
     },
     {
         "roll_number": "22R01A0531",
@@ -2120,8 +2158,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/shivaganeshreddy",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:55.080370",
-        "rank": 130
+        "last_updated": "2026-04-26T13:52:23.337282",
+        "rank": 132
     },
     {
         "roll_number": "23R01A6690",
@@ -2135,8 +2173,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/q8gl77q5k1lx11bxyy",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:58.560201",
-        "rank": 131
+        "last_updated": "2026-04-26T13:52:25.839283",
+        "rank": 133
     },
     {
         "roll_number": "23R01A66V4",
@@ -2148,8 +2186,38 @@
         "profile_url": "https://www.salesforce.com/trailblazer/kfh2vqa6xarzeq7dq9",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:58.762845",
-        "rank": 132
+        "last_updated": "2026-04-26T13:52:28.844144",
+        "rank": 134
+    },
+    {
+        "roll_number": "22R01A0571",
+        "agentblazer_status": [],
+        "badges": 38,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 12375,
+        "profile_url": "https://www.salesforce.com/trailblazer/ndw1dig8ime7cd6lzz",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:33.126156",
+        "rank": 135
+    },
+    {
+        "roll_number": "22R01A0584",
+        "agentblazer_status": [],
+        "badges": 29,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 12375,
+        "profile_url": "https://www.salesforce.com/trailblazer/kjpxvlh9esnkvo2gw9",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:37.354315",
+        "rank": 136
     },
     {
         "roll_number": "22R01A67H5",
@@ -2165,8 +2233,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/chva3riradlltnwaoc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:06.122214",
-        "rank": 133
+        "last_updated": "2026-04-26T13:52:30.429394",
+        "rank": 137
     },
     {
         "roll_number": "23r01a0479",
@@ -2182,8 +2250,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cbrxj5he8wmsyc8znb",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:11.874750",
-        "rank": 134
+        "last_updated": "2026-04-26T13:52:33.487089",
+        "rank": 138
     },
     {
         "roll_number": "23R01A05AR",
@@ -2199,8 +2267,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vax0ywwxm3fy5527g2",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:13.730432",
-        "rank": 135
+        "last_updated": "2026-04-26T13:52:36.157665",
+        "rank": 139
     },
     {
         "roll_number": "22R01A05B3",
@@ -2214,8 +2282,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/anushnapurumalla5b3",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:15.996598",
-        "rank": 136
+        "last_updated": "2026-04-26T13:52:37.935389",
+        "rank": 140
     },
     {
         "roll_number": "23R01A05Q2",
@@ -2229,8 +2297,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/b7bq0cbrmhrzxcf3ar",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:18.859412",
-        "rank": 137
+        "last_updated": "2026-04-26T13:52:41.377461",
+        "rank": 141
     },
     {
         "roll_number": "23R01A05D4",
@@ -2246,8 +2314,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eyz14f1r3qnm0j4eoc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:12.575127",
-        "rank": 138
+        "last_updated": "2026-04-26T13:52:43.481298",
+        "rank": 142
     },
     {
         "roll_number": "22r01a6731",
@@ -2261,8 +2329,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/abz4uwetesk6tqqxoh",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:21.119197",
-        "rank": 139
+        "last_updated": "2026-04-26T13:52:45.562408",
+        "rank": 143
     },
     {
         "roll_number": "23R01A0550",
@@ -2276,8 +2344,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/gavti39f9lw2v9q4zc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:23.239779",
-        "rank": 140
+        "last_updated": "2026-04-26T13:52:48.633976",
+        "rank": 144
     },
     {
         "roll_number": "22R01A6743",
@@ -2291,8 +2359,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/d5bgijn7ueozv0073b",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:26.364201",
-        "rank": 141
+        "last_updated": "2026-04-26T13:52:50.878467",
+        "rank": 145
     },
     {
         "roll_number": "22r01a7312",
@@ -2306,8 +2374,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/o66z1a32e7rdw3675z",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:28.554740",
-        "rank": 142
+        "last_updated": "2026-04-26T13:52:52.849597",
+        "rank": 146
     },
     {
         "roll_number": "22R01A0577",
@@ -2321,8 +2389,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xfc83yqxp39ohqpnsm",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:30.534122",
-        "rank": 143
+        "last_updated": "2026-04-26T13:52:55.825612",
+        "rank": 147
     },
     {
         "roll_number": "23R01A6693",
@@ -2336,8 +2404,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/j2gkkal3wnylrxpl22",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:33.537494",
-        "rank": 144
+        "last_updated": "2026-04-26T13:52:58.054310",
+        "rank": 148
     },
     {
         "roll_number": "23R01A05BR",
@@ -2351,40 +2419,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/mkq941x9yqr7owyfwq",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:35.765766",
-        "rank": 145
-    },
-    {
-        "roll_number": "23R01A6762",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
-        "badges": 36,
-        "certifications": [],
-        "name": "",
-        "points": 11250,
-        "profile_url": "https://www.salesforce.com/trailblazer/srp8dp7nvmpa05a4gn",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:37.791031",
-        "rank": 146
-    },
-    {
-        "roll_number": "23R01A6685",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
-        "badges": 41,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 11175,
-        "profile_url": "https://www.salesforce.com/trailblazer/xe9yc6ikxxmhbbcbjc",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:40.842905",
-        "rank": 147
+        "last_updated": "2026-04-26T13:53:00.269408",
+        "rank": 149
     },
     {
         "roll_number": "23R01A66Q4",
@@ -2398,8 +2434,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/djjzy85aogmtfjj20c",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:42.948551",
-        "rank": 148
+        "last_updated": "2026-04-26T13:53:07.693269",
+        "rank": 150
     },
     {
         "roll_number": "Akanksha Akula",
@@ -2411,8 +2447,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/kvfckcqkgwwj68p4lu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:45.264397",
-        "rank": 149
+        "last_updated": "2026-04-26T13:53:13.170859",
+        "rank": 151
     },
     {
         "roll_number": "22R01A0466",
@@ -2426,8 +2462,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/maneeshaallam",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:48.147408",
-        "rank": 150
+        "last_updated": "2026-04-26T13:53:15.834161",
+        "rank": 152
     },
     {
         "roll_number": "23R01A6619",
@@ -2441,8 +2477,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/mu7o8l6d4xvjlr4olr",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:50.236169",
-        "rank": 151
+        "last_updated": "2026-04-26T13:53:16.011701",
+        "rank": 153
     },
     {
         "roll_number": "23R01A05U5",
@@ -2454,8 +2490,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p8gsmhufjdw7mojp7n",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:52.490407",
-        "rank": 152
+        "last_updated": "2026-04-26T13:53:20.584329",
+        "rank": 154
     },
     {
         "roll_number": "23R01A67B7",
@@ -2471,8 +2507,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/khw2g3k0006jv7cus4",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:55.699886",
-        "rank": 153
+        "last_updated": "2026-04-26T13:53:23.281365",
+        "rank": 155
     },
     {
         "roll_number": "23R01A05V6",
@@ -2488,8 +2524,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/s5mjdg24jzeju9012c",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:57.668836",
-        "rank": 154
+        "last_updated": "2026-04-26T13:53:23.496046",
+        "rank": 156
     },
     {
         "roll_number": "23R01A6722",
@@ -2501,8 +2537,38 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qfo9hzb9lg910tt11x",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:59.814701",
-        "rank": 155
+        "last_updated": "2026-04-26T13:53:27.682915",
+        "rank": 157
+    },
+    {
+        "roll_number": "23R01A6793",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 40,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 10650,
+        "profile_url": "https://www.salesforce.com/trailblazer/ltest349wegpt1qb4o",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:37.190374",
+        "rank": 158
+    },
+    {
+        "roll_number": "23R05A6705",
+        "agentblazer_status": [],
+        "badges": 37,
+        "certifications": [],
+        "name": "",
+        "points": 10650,
+        "profile_url": "https://www.salesforce.com/trailblazer/xlb6rr6x42miw7qqyj",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:41.658869",
+        "rank": 159
     },
     {
         "roll_number": "23R01A6681",
@@ -2518,8 +2584,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/m6z8jxh2u5iu8aqpkt",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:07.102922",
-        "rank": 156
+        "last_updated": "2026-04-26T13:53:30.551019",
+        "rank": 160
     },
     {
         "roll_number": "Ashritha Akula",
@@ -2535,8 +2601,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wcxstzpt9etv9du8cd",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:14.002793",
-        "rank": 157
+        "last_updated": "2026-04-26T13:53:30.853075",
+        "rank": 161
     },
     {
         "roll_number": "22R01A04E0",
@@ -2552,8 +2618,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/bodarishitha",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:14.988785",
-        "rank": 158
+        "last_updated": "2026-04-26T13:53:34.945513",
+        "rank": 162
     },
     {
         "roll_number": "23R05A6706",
@@ -2569,8 +2635,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xgjacc3fjo1l13hikh",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:15.020764",
-        "rank": 159
+        "last_updated": "2026-04-26T13:53:38.006259",
+        "rank": 163
     },
     {
         "roll_number": "23R01A0587",
@@ -2586,8 +2652,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/b22ebqf4ewjw2ccujk",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:16.251396",
-        "rank": 160
+        "last_updated": "2026-04-26T13:53:38.121990",
+        "rank": 164
     },
     {
         "roll_number": "23R01A6718",
@@ -2603,8 +2669,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vahz1phuu7uxr2juvn",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:21.156792",
-        "rank": 161
+        "last_updated": "2026-04-26T13:53:41.943078",
+        "rank": 165
     },
     {
         "roll_number": "23R01A05T1",
@@ -2618,8 +2684,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ptlfwfo88ji0lci0ip",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:22.630725",
-        "rank": 162
+        "last_updated": "2026-04-26T13:53:45.423586",
+        "rank": 166
     },
     {
         "roll_number": "23R01A0411",
@@ -2635,8 +2701,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p0g5b82y2xqcvhzvq5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:23.981656",
-        "rank": 163
+        "last_updated": "2026-04-26T13:53:45.357937",
+        "rank": 167
     },
     {
         "roll_number": "23R01A05W1",
@@ -2652,8 +2718,25 @@
         "profile_url": "https://www.salesforce.com/trailblazer/upd0whqtmk2m6vg9u0",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:28.072537",
-        "rank": 164
+        "last_updated": "2026-04-26T13:53:49.213264",
+        "rank": 168
+    },
+    {
+        "roll_number": "23R01A6732",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 34,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 9850,
+        "profile_url": "https://www.salesforce.com/trailblazer/t1w83jg2z6znz27lit",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T13:54:07.704955",
+        "rank": 169
     },
     {
         "roll_number": "24R05A6610",
@@ -2669,8 +2752,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wgz42br45vj1uf0gfq",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:29.995819",
-        "rank": 165
+        "last_updated": "2026-04-26T13:53:52.578575",
+        "rank": 170
     },
     {
         "roll_number": "23R01A05Y5",
@@ -2686,8 +2769,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/e9idv0jie3ykar7l5u",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:31.598979",
-        "rank": 166
+        "last_updated": "2026-04-26T13:53:52.730850",
+        "rank": 171
     },
     {
         "roll_number": "23R01A67J0",
@@ -2701,8 +2784,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ylrkifmo4pmk1mb9l1",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:35.145015",
-        "rank": 167
+        "last_updated": "2026-04-26T13:53:56.735062",
+        "rank": 172
     },
     {
         "roll_number": "23R01A0468",
@@ -2716,14 +2799,12 @@
         "profile_url": "https://www.salesforce.com/trailblazer/dlm1fv39u9zggnhpcu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:37.561960",
-        "rank": 168
+        "last_updated": "2026-04-26T13:53:59.998833",
+        "rank": 173
     },
     {
         "roll_number": "24R05A6609",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 42,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -2733,40 +2814,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/zn06zwxcot8rvhpjsp",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:39.119765",
-        "rank": 169
-    },
-    {
-        "roll_number": "23R01A05W4",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
-        "badges": 37,
-        "certifications": [],
-        "name": "",
-        "points": 9475,
-        "profile_url": "https://www.salesforce.com/trailblazer/tzyd7z9xdqrofasf89",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:42.180140",
-        "rank": 170
-    },
-    {
-        "roll_number": "23R01A6732",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
-        "badges": 32,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 9425,
-        "profile_url": "https://www.salesforce.com/trailblazer/t1w83jg2z6znz27lit",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:44.698115",
-        "rank": 171
+        "last_updated": "2026-04-26T13:54:00.140293",
+        "rank": 174
     },
     {
         "roll_number": "23R01A05Q5",
@@ -2782,8 +2831,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/un1uq9uusrhktgiose",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:46.761011",
-        "rank": 172
+        "last_updated": "2026-04-26T13:54:07.721021",
+        "rank": 175
     },
     {
         "roll_number": "23R01A66Y3",
@@ -2799,8 +2848,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ll6sn9j678m1z9epon",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:49.365043",
-        "rank": 173
+        "last_updated": "2026-04-26T13:54:13.714958",
+        "rank": 176
     },
     {
         "roll_number": "22R01A6238",
@@ -2814,8 +2863,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/raamayu71d6wz0gm2g",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:51.754893",
-        "rank": 174
+        "last_updated": "2026-04-26T13:54:16.032256",
+        "rank": 177
     },
     {
         "roll_number": "23R01A05C9",
@@ -2831,8 +2880,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/c7743k9rfbr6s3exnh",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:54.111941",
-        "rank": 175
+        "last_updated": "2026-04-26T13:54:15.569990",
+        "rank": 178
     },
     {
         "roll_number": "22R01A66F4",
@@ -2846,8 +2895,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qvyk3y29svu840gjo7",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:56.361519",
-        "rank": 176
+        "last_updated": "2026-04-26T13:54:20.896401",
+        "rank": 179
     },
     {
         "roll_number": "23R01A0565",
@@ -2861,8 +2910,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/d2ga4zfq2720u9nnd4",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:58.856594",
-        "rank": 177
+        "last_updated": "2026-04-26T13:54:23.185002",
+        "rank": 180
     },
     {
         "roll_number": "23R01A05H3",
@@ -2878,8 +2927,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vf5xkjp06ob111gych",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:01.226354",
-        "rank": 178
+        "last_updated": "2026-04-26T13:54:23.568513",
+        "rank": 181
     },
     {
         "roll_number": "23R01A05F5",
@@ -2895,8 +2944,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/gbr2jhc3jw8z0rvz8r",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:03.700073",
-        "rank": 179
+        "last_updated": "2026-04-26T13:54:28.163134",
+        "rank": 182
     },
     {
         "roll_number": "22R01A67H2",
@@ -2910,8 +2959,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/t26z1fbgffg4mpf8p8",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:06.149456",
-        "rank": 180
+        "last_updated": "2026-04-26T13:54:31.969340",
+        "rank": 183
     },
     {
         "roll_number": "23R01A05D0",
@@ -2925,8 +2974,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eey317aqilzvpbbulr",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:08.509815",
-        "rank": 181
+        "last_updated": "2026-04-26T13:54:32.034298",
+        "rank": 184
     },
     {
         "roll_number": "23R01A05R5",
@@ -2940,8 +2989,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wwc6l0ls05d68229uc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:10.857904",
-        "rank": 182
+        "last_updated": "2026-04-26T13:54:35.627419",
+        "rank": 185
     },
     {
         "roll_number": "22R01A67F2",
@@ -2955,8 +3004,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/varunkumargakkula",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:13.254872",
-        "rank": 183
+        "last_updated": "2026-04-26T13:54:39.268488",
+        "rank": 186
     },
     {
         "roll_number": "23R01A66V5",
@@ -2970,8 +3019,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/geoyc9vlsvx47vni1a",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:15.658697",
-        "rank": 184
+        "last_updated": "2026-04-26T13:54:39.462744",
+        "rank": 187
     },
     {
         "roll_number": "24R05A0539",
@@ -2987,8 +3036,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yr6r5g2u0wm1a1tcu5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:18.035949",
-        "rank": 185
+        "last_updated": "2026-04-26T13:54:43.289118",
+        "rank": 188
     },
     {
         "roll_number": "23R01A05ET",
@@ -3004,8 +3053,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/djoncf1qfy7cg7klah",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:20.802251",
-        "rank": 186
+        "last_updated": "2026-04-26T13:54:46.775704",
+        "rank": 189
     },
     {
         "roll_number": "23R01A67A2",
@@ -3021,8 +3070,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xz6k3lt8pzi76ufv1t",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:22.900169",
-        "rank": 187
+        "last_updated": "2026-04-26T13:54:46.961568",
+        "rank": 190
     },
     {
         "roll_number": "22R01A0510",
@@ -3038,8 +3087,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/sindhujachikati",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:25.838463",
-        "rank": 188
+        "last_updated": "2026-04-26T13:54:50.615879",
+        "rank": 191
     },
     {
         "roll_number": "22R01A66F2",
@@ -3053,8 +3102,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nd2rvbz7jp2ddqpfcg",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:28.408082",
-        "rank": 189
+        "last_updated": "2026-04-26T13:54:53.941373",
+        "rank": 192
     },
     {
         "roll_number": "23R01A05Y9",
@@ -3068,8 +3117,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/jhjde6dlmr8ish7gdx",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:30.258914",
-        "rank": 190
+        "last_updated": "2026-04-26T13:54:54.211041",
+        "rank": 193
     },
     {
         "roll_number": "23R01A6735",
@@ -3085,8 +3134,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/manikanta2407",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:33.088360",
-        "rank": 191
+        "last_updated": "2026-04-26T13:54:57.985638",
+        "rank": 194
     },
     {
         "roll_number": "23R05A0508",
@@ -3100,38 +3149,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/katepallisaiganesh",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:35.810055",
-        "rank": 192
-    },
-    {
-        "roll_number": "22R01A0576",
-        "agentblazer_status": [],
-        "badges": 29,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 8325,
-        "profile_url": "https://www.salesforce.com/trailblazer/o8a7o5j2xmxzi4hf60",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:37.566533",
-        "rank": 193
-    },
-    {
-        "roll_number": "23R01A6777",
-        "agentblazer_status": [],
-        "badges": 29,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 8325,
-        "profile_url": "https://www.salesforce.com/trailblazer/y2y39ruvel3oam90j7",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:40.492728",
-        "rank": 194
+        "last_updated": "2026-04-26T13:55:01.233326",
+        "rank": 195
     },
     {
         "roll_number": "23R01A05B0",
@@ -3145,8 +3164,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/hjel5yoczi7e62btyf",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:43.045846",
-        "rank": 195
+        "last_updated": "2026-04-26T13:55:08.148412",
+        "rank": 196
     },
     {
         "roll_number": "23R05A6711",
@@ -3162,8 +3181,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/varnamala",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:45.155062",
-        "rank": 196
+        "last_updated": "2026-04-26T13:55:11.583427",
+        "rank": 197
     },
     {
         "roll_number": "23R01A05C3",
@@ -3177,8 +3196,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/hel9lh32yly8dgstf7",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:47.560770",
-        "rank": 197
+        "last_updated": "2026-04-26T13:55:15.304480",
+        "rank": 198
     },
     {
         "roll_number": "22R01A0543",
@@ -3194,8 +3213,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/khdkqhtpe32ipkw983",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:50.433490",
-        "rank": 198
+        "last_updated": "2026-04-26T13:55:15.958685",
+        "rank": 199
     },
     {
         "roll_number": "23r01a0524",
@@ -3211,8 +3230,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/fglfnmz23sm7w17qgc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:52.409010",
-        "rank": 199
+        "last_updated": "2026-04-26T13:55:18.771042",
+        "rank": 200
     },
     {
         "roll_number": "23R01A05K6",
@@ -3228,8 +3247,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/bfm9jkmx0mpgl94a8q",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:54.466285",
-        "rank": 200
+        "last_updated": "2026-04-26T13:55:22.513927",
+        "rank": 201
     },
     {
         "roll_number": "23R01A66W2",
@@ -3245,8 +3264,59 @@
         "profile_url": "https://www.salesforce.com/trailblazer/r4af5cje4tb0rlsnlw",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:52:57.663853",
-        "rank": 201
+        "last_updated": "2026-04-26T13:55:23.508067",
+        "rank": 202
+    },
+    {
+        "roll_number": "23R01A0528",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 28,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 7975,
+        "profile_url": "https://www.salesforce.com/trailblazer/tcj0tzcrumtlbbwb2v",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:44.932384",
+        "rank": 203
+    },
+    {
+        "roll_number": "23R01A0511",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 28,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 7950,
+        "profile_url": "https://www.salesforce.com/trailblazer/jju0smcbgklsdyp90g",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:45.155448",
+        "rank": 204
+    },
+    {
+        "roll_number": "23R01A6680",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 26,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 7925,
+        "profile_url": "https://www.salesforce.com/trailblazer/v35rx99hg7ehajla3u",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:49.022846",
+        "rank": 205
     },
     {
         "roll_number": "22R01A7330",
@@ -3262,12 +3332,14 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ev1fzkf3sm4za9fyj4",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:09.350602",
-        "rank": 202
+        "last_updated": "2026-04-26T13:55:26.255158",
+        "rank": 206
     },
     {
         "roll_number": "22R01A05M6",
-        "agentblazer_status": [],
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
         "badges": 25,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -3277,8 +3349,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/w5b9q0yuwt0d9zgoie",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:11.472474",
-        "rank": 203
+        "last_updated": "2026-04-26T13:55:29.886499",
+        "rank": 207
     },
     {
         "roll_number": "23R01A05Z1",
@@ -3294,8 +3366,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nz9bel0ye5hy8qpz1g",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:14.668372",
-        "rank": 204
+        "last_updated": "2026-04-26T13:55:31.417255",
+        "rank": 208
     },
     {
         "roll_number": "23R01A05CH",
@@ -3311,8 +3383,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ielvzqplioh1jpe59d",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:15.375809",
-        "rank": 205
+        "last_updated": "2026-04-26T13:55:33.871290",
+        "rank": 209
     },
     {
         "roll_number": "23R01A05L9",
@@ -3328,8 +3400,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/s622s903ef0ghnmi7a",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:16.809395",
-        "rank": 206
+        "last_updated": "2026-04-26T13:55:36.968772",
+        "rank": 210
     },
     {
         "roll_number": "23R01A66Q3",
@@ -3345,8 +3417,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pxey3ka2gkxamsx1ux",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:18.766485",
-        "rank": 207
+        "last_updated": "2026-04-26T13:55:38.648889",
+        "rank": 211
     },
     {
         "roll_number": "23R01A0455",
@@ -3362,8 +3434,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nnw8otgj3rgs84r58y",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:21.983082",
-        "rank": 208
+        "last_updated": "2026-04-26T13:55:41.299216",
+        "rank": 212
     },
     {
         "roll_number": "22R01A6226",
@@ -3379,8 +3451,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p0el91orqkvkcdplk8",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:24.240399",
-        "rank": 209
+        "last_updated": "2026-04-26T13:55:44.327673",
+        "rank": 213
     },
     {
         "roll_number": "22R01A0493",
@@ -3394,8 +3466,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/m6som2lcfu2tglu6of",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:26.179644",
-        "rank": 210
+        "last_updated": "2026-04-26T13:55:46.252444",
+        "rank": 214
     },
     {
         "roll_number": "23R01A05M5",
@@ -3411,8 +3483,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p2ndq6pxtl2on4ficv",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:29.179873",
-        "rank": 211
+        "last_updated": "2026-04-26T13:55:48.588386",
+        "rank": 215
     },
     {
         "roll_number": "24R05A6611",
@@ -3428,8 +3500,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xjf4q4vtl27561iti5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:31.355794",
-        "rank": 212
+        "last_updated": "2026-04-26T13:55:51.924323",
+        "rank": 216
     },
     {
         "roll_number": "Akshaya Gaje",
@@ -3443,8 +3515,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/tz7zj72vj8090xp50r",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:33.476097",
-        "rank": 213
+        "last_updated": "2026-04-26T13:55:54.092428",
+        "rank": 217
     },
     {
         "roll_number": "23R01A05CK",
@@ -3458,8 +3530,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/n060t2yvjr8jvxuban",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:36.258205",
-        "rank": 214
+        "last_updated": "2026-04-26T13:55:55.957337",
+        "rank": 218
     },
     {
         "roll_number": "23r01a6677",
@@ -3475,8 +3547,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/iao4mxekz0t3m0cj7q",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:38.616366",
-        "rank": 215
+        "last_updated": "2026-04-26T13:55:59.485580",
+        "rank": 219
     },
     {
         "roll_number": "23R01A6798",
@@ -3490,8 +3562,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ven203wytl3eh2owdl",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:40.840671",
-        "rank": 216
+        "last_updated": "2026-04-26T13:56:01.497245",
+        "rank": 220
     },
     {
         "roll_number": "23R01A6695",
@@ -3507,8 +3579,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/sesuw5azrwrtm9mav9",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:43.438802",
-        "rank": 217
+        "last_updated": "2026-04-26T13:56:03.995860",
+        "rank": 221
     },
     {
         "roll_number": "22R01A0413",
@@ -3522,8 +3594,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/td14vqwkm6r239d8kq",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:45.756351",
-        "rank": 218
+        "last_updated": "2026-04-26T13:56:06.751950",
+        "rank": 222
     },
     {
         "roll_number": "23R01A67B4",
@@ -3539,8 +3611,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ujha6l2j9rufd3qmoi",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:48.198921",
-        "rank": 219
+        "last_updated": "2026-04-26T13:56:08.893362",
+        "rank": 223
     },
     {
         "roll_number": "23R01A67A6",
@@ -3554,8 +3626,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/uwooia6rt30xnm3i49",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:50.611665",
-        "rank": 220
+        "last_updated": "2026-04-26T13:56:11.214700",
+        "rank": 224
     },
     {
         "roll_number": "23R01A6749",
@@ -3571,8 +3643,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/epemhgmhrh2icn900a",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:53.021291",
-        "rank": 221
+        "last_updated": "2026-04-26T13:56:13.911929",
+        "rank": 225
     },
     {
         "roll_number": "23R01A67B9",
@@ -3586,8 +3658,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xnzhepvc8fauph39hb",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:55.429169",
-        "rank": 222
+        "last_updated": "2026-04-26T13:56:16.047121",
+        "rank": 226
     },
     {
         "roll_number": "23R01A6696",
@@ -3603,8 +3675,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/g3vhyaf8laqlx5ejyc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:57.850933",
-        "rank": 223
+        "last_updated": "2026-04-26T13:56:18.587509",
+        "rank": 227
     },
     {
         "roll_number": "22R01A66J9",
@@ -3620,12 +3692,14 @@
         "profile_url": "https://www.salesforce.com/trailblazer/bmtn89x6krgu4p528g",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:00.194403",
-        "rank": 224
+        "last_updated": "2026-04-26T13:56:21.331570",
+        "rank": 228
     },
     {
         "roll_number": "23R01A6672",
-        "agentblazer_status": [],
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
         "badges": 25,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -3635,8 +3709,25 @@
         "profile_url": "https://www.salesforce.com/trailblazer/in8pevu6kjy71smpmp",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:02.579852",
-        "rank": 225
+        "last_updated": "2026-04-26T13:56:23.420251",
+        "rank": 229
+    },
+    {
+        "roll_number": "23R01A05M7",
+        "agentblazer_status": [
+            "Champion 2026"
+        ],
+        "badges": 25,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 7275,
+        "profile_url": "https://www.salesforce.com/trailblazer/ye3drezyet5gjketp5",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:52.518131",
+        "rank": 230
     },
     {
         "roll_number": "23R01A6703",
@@ -3652,8 +3743,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/z7b7q3mor2n8s95snu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:08.315315",
-        "rank": 226
+        "last_updated": "2026-04-26T13:56:25.788022",
+        "rank": 231
     },
     {
         "roll_number": "23R01A0552",
@@ -3669,8 +3760,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/t7myk9tnc2xdddsb53",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:10.136317",
-        "rank": 227
+        "last_updated": "2026-04-26T13:56:28.688802",
+        "rank": 232
     },
     {
         "roll_number": "23R01A0536",
@@ -3686,8 +3777,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/hf1jyswgwraormxzx6",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:14.496098",
-        "rank": 228
+        "last_updated": "2026-04-26T13:56:30.722493",
+        "rank": 233
     },
     {
         "roll_number": "22R01A6604",
@@ -3701,8 +3792,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ganesh2604",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:15.885800",
-        "rank": 229
+        "last_updated": "2026-04-26T13:56:33.007873",
+        "rank": 234
     },
     {
         "roll_number": "23R01A04F0",
@@ -3714,8 +3805,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rksvq00e2glejobjl3",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:17.709390",
-        "rank": 230
+        "last_updated": "2026-04-26T13:56:35.670156",
+        "rank": 235
     },
     {
         "roll_number": "22r01a66d5",
@@ -3729,8 +3820,8 @@
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
         ],
-        "last_updated": "2026-04-25T13:54:21.531435",
-        "rank": 231
+        "last_updated": "2026-04-26T13:56:37.921047",
+        "rank": 236
     },
     {
         "roll_number": "23R01A05R6",
@@ -3746,8 +3837,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/f9uol0r1bui5ztjki5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:23.429091",
-        "rank": 232
+        "last_updated": "2026-04-26T13:56:39.996103",
+        "rank": 237
     },
     {
         "roll_number": "22R01A66D6",
@@ -3761,8 +3852,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/w5wwc6oq81xdiyp9jc",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:25.553109",
-        "rank": 233
+        "last_updated": "2026-04-26T13:56:42.937731",
+        "rank": 238
     },
     {
         "roll_number": "22R01A7355",
@@ -3776,8 +3867,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/y7bt2i7a8osnj6u1fg",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:28.604260",
-        "rank": 234
+        "last_updated": "2026-04-26T13:56:45.188835",
+        "rank": 239
     },
     {
         "roll_number": "22R01A66H8",
@@ -3793,8 +3884,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vqs2q3zw42ya3u03vm",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:30.945173",
-        "rank": 235
+        "last_updated": "2026-04-26T13:56:47.331054",
+        "rank": 240
     },
     {
         "roll_number": "23R01A05CP",
@@ -3808,8 +3899,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/muv3l3pzqnmuka4q18",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:32.906638",
-        "rank": 236
+        "last_updated": "2026-04-26T13:56:50.275439",
+        "rank": 241
     },
     {
         "roll_number": "23R01A66A3",
@@ -3821,8 +3912,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ugxd98h3kawv0kh6hr",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:36.095345",
-        "rank": 237
+        "last_updated": "2026-04-26T13:56:52.360463",
+        "rank": 242
     },
     {
         "roll_number": "22R01A6648",
@@ -3836,8 +3927,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/la2ducotajks2s85c8",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:38.357064",
-        "rank": 238
+        "last_updated": "2026-04-26T13:56:54.590355",
+        "rank": 243
     },
     {
         "roll_number": "22R01A7308",
@@ -3851,14 +3942,12 @@
         "profile_url": "https://www.salesforce.com/trailblazer/migvizdvvr16nr5wn5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:40.296987",
-        "rank": 239
+        "last_updated": "2026-04-26T13:56:57.227342",
+        "rank": 244
     },
     {
         "roll_number": "22R01A67H4",
-        "agentblazer_status": [
-            "Champion 2026"
-        ],
+        "agentblazer_status": [],
         "badges": 27,
         "certifications": [
             "Salesforce Certified Agentforce Specialist"
@@ -3868,38 +3957,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/m33bb5jhw1nwrqygpq",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:43.502128",
-        "rank": 240
-    },
-    {
-        "roll_number": "23R01A66H1",
-        "agentblazer_status": [],
-        "badges": 30,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 6050,
-        "profile_url": "https://www.salesforce.com/trailblazer/l374h0a3y9vj3e0irg",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:45.866698",
-        "rank": 241
-    },
-    {
-        "roll_number": "Puttisaicharan",
-        "agentblazer_status": [],
-        "badges": 29,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 5975,
-        "profile_url": "https://www.salesforce.com/trailblazer/haa86iicpp36gxplne",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:47.748007",
-        "rank": 242
+        "last_updated": "2026-04-26T13:56:59.345665",
+        "rank": 245
     },
     {
         "roll_number": "23R01A67C8",
@@ -3911,8 +3970,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/e5rhm5yasr80037g43",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:50.803287",
-        "rank": 243
+        "last_updated": "2026-04-26T13:57:07.070529",
+        "rank": 246
     },
     {
         "roll_number": "23R01A66A9",
@@ -3926,8 +3985,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/f5ec9hcx1e4cxgz7ta",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:53.178330",
-        "rank": 244
+        "last_updated": "2026-04-26T13:57:11.297164",
+        "rank": 247
     },
     {
         "roll_number": "23R01A05H8",
@@ -3943,8 +4002,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/d7o2gvfr768nuyea86",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:55.222758",
-        "rank": 245
+        "last_updated": "2026-04-26T13:57:14.342911",
+        "rank": 248
     },
     {
         "roll_number": "22R01A0587",
@@ -3958,8 +4017,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eqtuzog99odb0webx6",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:58.069031",
-        "rank": 246
+        "last_updated": "2026-04-26T13:57:14.558673",
+        "rank": 249
     },
     {
         "roll_number": "22r01a05b1",
@@ -3971,8 +4030,38 @@
         "profile_url": "https://www.salesforce.com/trailblazer/mqdv0y3ywchcleyiff",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:00.344786",
-        "rank": 247
+        "last_updated": "2026-04-26T13:57:18.536216",
+        "rank": 250
+    },
+    {
+        "roll_number": "23R01A6796",
+        "agentblazer_status": [],
+        "badges": 23,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 5600,
+        "profile_url": "https://www.salesforce.com/trailblazer/cbsnsmlockb2ra9903",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:52.558536",
+        "rank": 251
+    },
+    {
+        "roll_number": "23R01A6725",
+        "agentblazer_status": [],
+        "badges": 30,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 5525,
+        "profile_url": "https://www.salesforce.com/trailblazer/y2ef4w1uue1abax59x",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:56.292794",
+        "rank": 252
     },
     {
         "roll_number": "22r01a6249",
@@ -3986,8 +4075,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eb6c3nnjb5ciiudw0i",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:07.530971",
-        "rank": 248
+        "last_updated": "2026-04-26T13:57:21.868663",
+        "rank": 253
     },
     {
         "roll_number": "23R01A05CC",
@@ -4001,8 +4090,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cd79j57la03tshhrw6",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:12.025495",
-        "rank": 249
+        "last_updated": "2026-04-26T13:57:22.196490",
+        "rank": 254
     },
     {
         "roll_number": "24R05A0520",
@@ -4016,8 +4105,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/weqssvfqwwirxfy1xp",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:15.373005",
-        "rank": 250
+        "last_updated": "2026-04-26T13:57:25.799056",
+        "rank": 255
     },
     {
         "roll_number": "22R01A6632",
@@ -4029,8 +4118,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/t3zhj5bdlku6wp8wh2",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:15.467455",
-        "rank": 251
+        "last_updated": "2026-04-26T13:57:29.095986",
+        "rank": 256
     },
     {
         "roll_number": "23R01A6736",
@@ -4044,8 +4133,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pluq2blt9rysagzglf",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:20.003100",
-        "rank": 252
+        "last_updated": "2026-04-26T13:57:29.328480",
+        "rank": 257
     },
     {
         "roll_number": "22R01A73A2",
@@ -4059,8 +4148,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ecy1s6cimdnho5gf4j",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:19.299647",
-        "rank": 253
+        "last_updated": "2026-04-26T13:57:33.065601",
+        "rank": 258
     },
     {
         "roll_number": "22R01A05L8",
@@ -4074,8 +4163,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ec510yjvejvuenz77j",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:22.639691",
-        "rank": 254
+        "last_updated": "2026-04-26T13:57:36.528687",
+        "rank": 259
     },
     {
         "roll_number": "22r01a6673",
@@ -4089,8 +4178,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/e6fu9a33mhpan0zce2",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:23.004221",
-        "rank": 255
+        "last_updated": "2026-04-26T13:57:36.646234",
+        "rank": 260
     },
     {
         "roll_number": "23R01A6686",
@@ -4104,8 +4193,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/gpmf0inn2zv0eg3bex",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:26.592651",
-        "rank": 256
+        "last_updated": "2026-04-26T13:57:40.485957",
+        "rank": 261
     },
     {
         "roll_number": "23R01A6611",
@@ -4119,8 +4208,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/lqbz3g4ezvviyf2ktk",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:29.990746",
-        "rank": 257
+        "last_updated": "2026-04-26T13:57:44.095111",
+        "rank": 262
     },
     {
         "roll_number": "22r01a66d4",
@@ -4134,8 +4223,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/m3z41j3v0zgbk38g9c",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:30.255897",
-        "rank": 258
+        "last_updated": "2026-04-26T13:57:43.824150",
+        "rank": 263
     },
     {
         "roll_number": "23R01A67J7",
@@ -4149,8 +4238,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/k9kizw82rs87lxihqi",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:34.006914",
-        "rank": 259
+        "last_updated": "2026-04-26T13:57:47.692331",
+        "rank": 264
     },
     {
         "roll_number": "22R01A6682",
@@ -4164,8 +4253,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/anureddygannu4lz0byb2xj7m",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:37.519596",
-        "rank": 260
+        "last_updated": "2026-04-26T13:57:50.957723",
+        "rank": 265
     },
     {
         "roll_number": "23R01A6657",
@@ -4179,8 +4268,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/unmc05nzbl1x1suirj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:37.732892",
-        "rank": 261
+        "last_updated": "2026-04-26T13:57:51.329347",
+        "rank": 266
     },
     {
         "roll_number": "23R01A6727",
@@ -4194,8 +4283,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ihdf57uft87pl0gdxg",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:41.401315",
-        "rank": 262
+        "last_updated": "2026-04-26T13:57:54.984285",
+        "rank": 267
     },
     {
         "roll_number": "23r01a66d6",
@@ -4209,8 +4298,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p8xtiy63mz7gl69hzl",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:45.000858",
-        "rank": 263
+        "last_updated": "2026-04-26T13:57:58.145198",
+        "rank": 268
     },
     {
         "roll_number": "23r05a6605",
@@ -4224,8 +4313,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nj4ao8c1zoo31n104r",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:45.445279",
-        "rank": 264
+        "last_updated": "2026-04-26T13:57:58.455240",
+        "rank": 269
     },
     {
         "roll_number": "23R01A05U3",
@@ -4239,34 +4328,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ktcv6htdd9zi8r0u9c",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:48.821203",
-        "rank": 265
-    },
-    {
-        "roll_number": "23R01A66C4",
-        "agentblazer_status": [],
-        "badges": 20,
-        "certifications": [],
-        "name": "",
-        "points": 4275,
-        "profile_url": "https://www.salesforce.com/trailblazer/veeramachanenikarthisha",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:52.284854",
-        "rank": 266
-    },
-    {
-        "roll_number": "24R05A0527",
-        "agentblazer_status": [],
-        "badges": 20,
-        "certifications": [],
-        "name": "",
-        "points": 4200,
-        "profile_url": "https://www.salesforce.com/trailblazer/rsrnmcyyhalvivxd91",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:53.081964",
-        "rank": 267
+        "last_updated": "2026-04-26T13:58:02.067558",
+        "rank": 270
     },
     {
         "roll_number": "23r01a66r5",
@@ -4280,8 +4343,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vjhor58wbplgsyn4kk",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:56.559672",
-        "rank": 268
+        "last_updated": "2026-04-26T13:58:09.603579",
+        "rank": 271
     },
     {
         "roll_number": "22r01a6768",
@@ -4295,8 +4358,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yh21js32y1ee052ygz",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:00.316303",
-        "rank": 269
+        "last_updated": "2026-04-26T13:58:15.837274",
+        "rank": 272
     },
     {
         "roll_number": "22R01A6770",
@@ -4310,8 +4373,23 @@
         "profile_url": "https://www.salesforce.com/trailblazer/j9qy1v7tuvfm3hdl95",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:00.575929",
-        "rank": 270
+        "last_updated": "2026-04-26T13:58:15.439584",
+        "rank": 273
+    },
+    {
+        "roll_number": "23R01A0504",
+        "agentblazer_status": [],
+        "badges": 20,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 4150,
+        "profile_url": "https://www.salesforce.com/trailblazer/mtgtn534lypg8k9ihe",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:02:00.118370",
+        "rank": 274
     },
     {
         "roll_number": "23R05A6714",
@@ -4325,8 +4403,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pozq2syvp9jlaco5q6",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:07.758128",
-        "rank": 271
+        "last_updated": "2026-04-26T13:58:17.655093",
+        "rank": 275
     },
     {
         "roll_number": "23r01a67c9",
@@ -4340,8 +4418,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eqaiokgvmkewab66qw",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:08.094788",
-        "rank": 272
+        "last_updated": "2026-04-26T13:58:22.789109",
+        "rank": 276
     },
     {
         "roll_number": "23R01A05Q7",
@@ -4355,8 +4433,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yqgfzytwope0xyp3ds",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:13.389182",
-        "rank": 273
+        "last_updated": "2026-04-26T13:58:23.377235",
+        "rank": 277
     },
     {
         "roll_number": "22R01A66A3",
@@ -4368,8 +4446,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ato1cmub148ca5fczu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:15.754456",
-        "rank": 274
+        "last_updated": "2026-04-26T13:58:25.583144",
+        "rank": 278
     },
     {
         "roll_number": "23R01A6755",
@@ -4383,8 +4461,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cruf7vha9b7zh0jbow",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:16.307082",
-        "rank": 275
+        "last_updated": "2026-04-26T13:58:29.815954",
+        "rank": 279
     },
     {
         "roll_number": "22R01A0417",
@@ -4398,8 +4476,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/x12ob8srusb607odk4",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:20.450171",
-        "rank": 276
+        "last_updated": "2026-04-26T13:58:30.787296",
+        "rank": 280
     },
     {
         "roll_number": "22R01A7316",
@@ -4413,8 +4491,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yiqlm5k4heuiamul7k",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:23.410860",
-        "rank": 277
+        "last_updated": "2026-04-26T13:58:33.158630",
+        "rank": 281
     },
     {
         "roll_number": "22r01a6248",
@@ -4428,8 +4506,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cdqvlcxe2p2m0colis",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:23.807418",
-        "rank": 278
+        "last_updated": "2026-04-26T13:58:37.029499",
+        "rank": 282
     },
     {
         "roll_number": "Sahithya Alla",
@@ -4443,8 +4521,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p0m6atf1njplxlkf6f",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:27.525846",
-        "rank": 279
+        "last_updated": "2026-04-26T13:58:38.534674",
+        "rank": 283
     },
     {
         "roll_number": "24R05A6620",
@@ -4456,8 +4534,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/zx02ytuaaoudc5feld",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:30.903973",
-        "rank": 280
+        "last_updated": "2026-04-26T13:58:40.778183",
+        "rank": 284
     },
     {
         "roll_number": "22r01a0552",
@@ -4471,8 +4549,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/x4q6amrwjmiah36fwx",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:31.345850",
-        "rank": 281
+        "last_updated": "2026-04-26T13:58:44.176643",
+        "rank": 285
     },
     {
         "roll_number": "22R01A0447",
@@ -4484,8 +4562,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/avxizzoj4dvgtc6xi8",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:35.012261",
-        "rank": 282
+        "last_updated": "2026-04-26T13:58:45.998976",
+        "rank": 286
     },
     {
         "roll_number": "22R01A7350",
@@ -4499,8 +4577,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nishanthpathange",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:38.571567",
-        "rank": 283
+        "last_updated": "2026-04-26T13:58:48.128459",
+        "rank": 287
     },
     {
         "roll_number": "22r01a05d9",
@@ -4514,8 +4592,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wpm1vekmfe86eoiu5f",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:38.701736",
-        "rank": 284
+        "last_updated": "2026-04-26T13:58:51.328195",
+        "rank": 288
     },
     {
         "roll_number": "23R01A05EW",
@@ -4527,8 +4605,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/dtaog6rbl4ha6rz726",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:42.394108",
-        "rank": 285
+        "last_updated": "2026-04-26T13:58:53.136924",
+        "rank": 289
     },
     {
         "roll_number": "23R01A6744",
@@ -4542,8 +4620,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qu6s0at2o9acbvvah7",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:45.748202",
-        "rank": 286
+        "last_updated": "2026-04-26T13:58:55.331574",
+        "rank": 290
     },
     {
         "roll_number": "22R01a6709",
@@ -4557,8 +4635,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/htysm17r3lbmlr7blh",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:45.904481",
-        "rank": 287
+        "last_updated": "2026-04-26T13:58:58.626437",
+        "rank": 291
     },
     {
         "roll_number": "22r01a0559",
@@ -4572,8 +4650,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wz4ipovl6dexpvy3xd",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:49.657344",
-        "rank": 288
+        "last_updated": "2026-04-26T13:59:00.538603",
+        "rank": 292
     },
     {
         "roll_number": "Vastari Aditya",
@@ -4587,8 +4665,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/v2kb5rgdtgakggwtvn",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:53.233335",
-        "rank": 289
+        "last_updated": "2026-04-26T13:59:02.651178",
+        "rank": 293
     },
     {
         "roll_number": "23R01A6652",
@@ -4602,8 +4680,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/w4rsh1o0j7r8uwy7mu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:53.284839",
-        "rank": 290
+        "last_updated": "2026-04-26T13:59:06.157624",
+        "rank": 294
     },
     {
         "roll_number": "23R01A66X0",
@@ -4615,8 +4693,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yn8try1w8okskz31sk",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:57.098054",
-        "rank": 291
+        "last_updated": "2026-04-26T13:59:08.113501",
+        "rank": 295
     },
     {
         "roll_number": "23R01A05R4",
@@ -4630,8 +4708,23 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rev3vqigrjiuwetwd9",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:00.506844",
-        "rank": 292
+        "last_updated": "2026-04-26T13:59:10.047386",
+        "rank": 296
+    },
+    {
+        "roll_number": "23R01A0418",
+        "agentblazer_status": [],
+        "badges": 21,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 3750,
+        "profile_url": "https://www.salesforce.com/trailblazer/vt2f8wagwnzrlvcs5e",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:59.907427",
+        "rank": 297
     },
     {
         "roll_number": "24R05A0544",
@@ -4645,8 +4738,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xfmaa9zq9rf9rs7hxx",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:07.777603",
-        "rank": 293
+        "last_updated": "2026-04-26T13:59:13.838239",
+        "rank": 298
     },
     {
         "roll_number": "23R01A67G2",
@@ -4660,8 +4753,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/mvmohitkumar",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:10.438189",
-        "rank": 294
+        "last_updated": "2026-04-26T13:59:15.429218",
+        "rank": 299
     },
     {
         "roll_number": "23R01A05L6",
@@ -4675,8 +4768,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xnw2vq2jzwokmrksia",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:13.703665",
-        "rank": 295
+        "last_updated": "2026-04-26T13:59:17.622392",
+        "rank": 300
     },
     {
         "roll_number": "22R01A7322",
@@ -4690,8 +4783,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/g3i95d0haviu0psen5",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:15.415538",
-        "rank": 296
+        "last_updated": "2026-04-26T13:59:21.102392",
+        "rank": 301
     },
     {
         "roll_number": "23R01A05M4",
@@ -4705,8 +4798,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/otdeiggbkdllm5ia5z",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:17.700675",
-        "rank": 297
+        "last_updated": "2026-04-26T13:59:22.803674",
+        "rank": 302
     },
     {
         "roll_number": "24R05A0526",
@@ -4718,8 +4811,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pfqyst8dflkw9dxzs1",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:20.689910",
-        "rank": 298
+        "last_updated": "2026-04-26T13:59:25.067475",
+        "rank": 303
     },
     {
         "roll_number": "23R01A66P6",
@@ -4733,8 +4826,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/fw2f3tegj1x16spowf",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:22.684125",
-        "rank": 299
+        "last_updated": "2026-04-26T13:59:28.560581",
+        "rank": 304
     },
     {
         "roll_number": "23R01A05AB",
@@ -4748,8 +4841,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/e2nsp085ajjof2v14w",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:24.883532",
-        "rank": 300
+        "last_updated": "2026-04-26T13:59:30.385251",
+        "rank": 305
     },
     {
         "roll_number": "22R01A6208",
@@ -4763,8 +4856,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pa3c052z8ry8bvb414",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:27.848261",
-        "rank": 301
+        "last_updated": "2026-04-26T13:59:33.360185",
+        "rank": 306
     },
     {
         "roll_number": "23R01A6791",
@@ -4776,8 +4869,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/l2lvenhqe6a2ei1xwj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:29.948382",
-        "rank": 302
+        "last_updated": "2026-04-26T13:59:36.595223",
+        "rank": 307
     },
     {
         "roll_number": "23R01A05K2",
@@ -4791,8 +4884,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ldg8x2aykrl1s43u21",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:32.001372",
-        "rank": 303
+        "last_updated": "2026-04-26T13:59:38.212135",
+        "rank": 308
     },
     {
         "roll_number": "24R05A6608",
@@ -4806,8 +4899,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vvau4hradrmf7ne1c9",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:34.977039",
-        "rank": 304
+        "last_updated": "2026-04-26T13:59:40.710146",
+        "rank": 309
     },
     {
         "roll_number": "23R01A05V5",
@@ -4821,8 +4914,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/y2jq30qdigtvrb4tf7",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:37.109816",
-        "rank": 305
+        "last_updated": "2026-04-26T13:59:43.903089",
+        "rank": 310
     },
     {
         "roll_number": "23R01A05FE",
@@ -4834,8 +4927,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/k5wokdccjznpfw1fdw",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:39.263918",
-        "rank": 306
+        "last_updated": "2026-04-26T13:59:45.624131",
+        "rank": 311
     },
     {
         "roll_number": "22R01A04E4",
@@ -4847,8 +4940,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/h2nc6xd7pw927ubl2b",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:41.991182",
-        "rank": 307
+        "last_updated": "2026-04-26T13:59:47.926261",
+        "rank": 312
     },
     {
         "roll_number": "22r01a6737",
@@ -4862,8 +4955,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ohhv1l495plpzptdzg",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:44.208921",
-        "rank": 308
+        "last_updated": "2026-04-26T13:59:51.073952",
+        "rank": 313
     },
     {
         "roll_number": "25r05a0519",
@@ -4875,8 +4968,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/nc267nvji8bf9opi8l",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:46.701749",
-        "rank": 309
+        "last_updated": "2026-04-26T13:59:52.915674",
+        "rank": 314
     },
     {
         "roll_number": "22R01A66C8",
@@ -4890,8 +4983,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/tbs8sd80qrlfk5y5t0",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:49.040613",
-        "rank": 310
+        "last_updated": "2026-04-26T13:59:55.351579",
+        "rank": 315
     },
     {
         "roll_number": "23R01A67H2",
@@ -4905,8 +4998,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ncsg15peydkf1ohxjz",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:51.413953",
-        "rank": 311
+        "last_updated": "2026-04-26T13:59:58.367914",
+        "rank": 316
     },
     {
         "roll_number": "23R01A05P1",
@@ -4918,36 +5011,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vrjedybwbvu9w4d7op",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:53.953723",
-        "rank": 312
-    },
-    {
-        "roll_number": "23R01A66Y4",
-        "agentblazer_status": [],
-        "badges": 7,
-        "certifications": [],
-        "name": "",
-        "points": 3150,
-        "profile_url": "https://www.salesforce.com/trailblazer/h6dnnbawfstvkd39zs",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:56.147789",
-        "rank": 313
-    },
-    {
-        "roll_number": "24R05A0515",
-        "agentblazer_status": [],
-        "badges": 13,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 3100,
-        "profile_url": "https://www.salesforce.com/trailblazer/d6fyjsyektc3jpcpsj",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:58.717019",
-        "rank": 314
+        "last_updated": "2026-04-26T14:00:00.271300",
+        "rank": 317
     },
     {
         "roll_number": "22R01A6692",
@@ -4961,8 +5026,23 @@
         "profile_url": "https://www.salesforce.com/trailblazer/k3w5epdn1vf01ubyxw",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:01.151958",
-        "rank": 315
+        "last_updated": "2026-04-26T14:00:07.524734",
+        "rank": 318
+    },
+    {
+        "roll_number": "22r01a6251",
+        "agentblazer_status": [],
+        "badges": 26,
+        "certifications": [
+            "Salesforce Certified Agentforce Specialist"
+        ],
+        "name": "",
+        "points": 3025,
+        "profile_url": "https://www.salesforce.com/trailblazer/yuw033uyvo1qohqovp",
+        "scrape_error": null,
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:02:06.993636",
+        "rank": 319
     },
     {
         "roll_number": "23R05A0511",
@@ -4976,8 +5056,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ph99f7fujhn62snwwt",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:06.457859",
-        "rank": 316
+        "last_updated": "2026-04-26T14:00:12.371128",
+        "rank": 320
     },
     {
         "roll_number": "22R01A6628",
@@ -4991,8 +5071,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/tm7s5jla8cb5ec5ze6",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:09.683639",
-        "rank": 317
+        "last_updated": "2026-04-26T14:00:14.998541",
+        "rank": 321
     },
     {
         "roll_number": "23r01a05cx",
@@ -5004,8 +5084,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vmbijwyzr81g8uqn84",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:12.671874",
-        "rank": 318
+        "last_updated": "2026-04-26T14:00:16.127000",
+        "rank": 322
     },
     {
         "roll_number": "22R01A6750",
@@ -5019,8 +5099,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/k0pycjyk4o86n97zqv",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:14.069652",
-        "rank": 319
+        "last_updated": "2026-04-26T14:00:20.178095",
+        "rank": 323
     },
     {
         "roll_number": "23R01A05AA",
@@ -5034,8 +5114,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vekjesloe2i0fct28m",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:22.259628",
-        "rank": 320
+        "last_updated": "2026-04-26T14:00:22.641033",
+        "rank": 324
     },
     {
         "roll_number": "23r01a05g4",
@@ -5049,8 +5129,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/i51x81rtmnll14od3d",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:22.650650",
-        "rank": 321
+        "last_updated": "2026-04-26T14:00:24.098829",
+        "rank": 325
     },
     {
         "roll_number": "23R01A6613",
@@ -5062,8 +5142,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xo93cbq8nk40a6eu1x",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:27.235141",
-        "rank": 322
+        "last_updated": "2026-04-26T14:00:27.596639",
+        "rank": 326
     },
     {
         "roll_number": "24r05a6626",
@@ -5077,8 +5157,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pejx13xvt64insb5re",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:16.948447",
-        "rank": 323
+        "last_updated": "2026-04-26T14:00:30.481909",
+        "rank": 327
     },
     {
         "roll_number": "23R01A05A7",
@@ -5092,8 +5172,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wfjrddtyevcv5vb3k6",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:20.045004",
-        "rank": 324
+        "last_updated": "2026-04-26T14:00:32.226669",
+        "rank": 328
     },
     {
         "roll_number": "Vanguri Rupa Laxmi",
@@ -5105,8 +5185,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/hcqmgc8bdtrztmv3gj",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:21.757010",
-        "rank": 325
+        "last_updated": "2026-04-26T14:00:36.162091",
+        "rank": 329
     },
     {
         "roll_number": "23R01A05EG",
@@ -5118,8 +5198,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/q6jmsfb5eamyuoqaiz",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:24.531042",
-        "rank": 326
+        "last_updated": "2026-04-26T14:00:38.114615",
+        "rank": 330
     },
     {
         "roll_number": "23R01A05BW",
@@ -5133,8 +5213,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pxe1l3v6laxgi30r5j",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:27.208950",
-        "rank": 327
+        "last_updated": "2026-04-26T14:00:39.791244",
+        "rank": 331
     },
     {
         "roll_number": "24R05A0521",
@@ -5148,8 +5228,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/h0duv0b7ba3gs7zqx8",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:29.089862",
-        "rank": 328
+        "last_updated": "2026-04-26T14:00:43.235522",
+        "rank": 332
     },
     {
         "roll_number": "22r01a6614",
@@ -5163,8 +5243,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/srividyagangoni",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:31.566838",
-        "rank": 329
+        "last_updated": "2026-04-26T14:00:45.309946",
+        "rank": 333
     },
     {
         "roll_number": "23R01A6799",
@@ -5176,8 +5256,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vd86h4r6x09r448cbd",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:34.198200",
-        "rank": 330
+        "last_updated": "2026-04-26T14:00:47.331601",
+        "rank": 334
     },
     {
         "roll_number": "23R05A6715",
@@ -5191,8 +5271,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/g0zpuynkbl32zaziog",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:36.152716",
-        "rank": 331
+        "last_updated": "2026-04-26T14:00:50.322187",
+        "rank": 335
     },
     {
         "roll_number": "23R01A05U7",
@@ -5206,8 +5286,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/h9g3u4bpne9ivntvjk",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:38.408025",
-        "rank": 332
+        "last_updated": "2026-04-26T14:00:53.235333",
+        "rank": 336
     },
     {
         "roll_number": "ARUNKUMAR LINGAMPALLY",
@@ -5221,8 +5301,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eqo0ev83195t7acl15",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:41.288310",
-        "rank": 333
+        "last_updated": "2026-04-26T14:00:54.894117",
+        "rank": 337
     },
     {
         "roll_number": "23R01A0420",
@@ -5236,8 +5316,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pvzzbyl0zh1lbixsy0",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:43.295477",
-        "rank": 334
+        "last_updated": "2026-04-26T14:00:57.649033",
+        "rank": 338
     },
     {
         "roll_number": "23R01A05E0",
@@ -5251,8 +5331,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/j82gqvqjvw0915pl6q",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:45.495579",
-        "rank": 335
+        "last_updated": "2026-04-26T14:01:00.397943",
+        "rank": 339
     },
     {
         "roll_number": "22r01a6206",
@@ -5266,23 +5346,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/w6j2ycploxo7v94ws1",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:48.414515",
-        "rank": 336
-    },
-    {
-        "roll_number": "22r01a6257",
-        "agentblazer_status": [],
-        "badges": 1,
-        "certifications": [
-            "Salesforce Certified Agentforce Specialist"
-        ],
-        "name": "",
-        "points": 100,
-        "profile_url": "https://www.salesforce.com/trailblazer/f25b5b82lvc8dvbobh",
-        "scrape_error": null,
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:50.391555",
-        "rank": 337
+        "last_updated": "2026-04-26T14:01:02.462261",
+        "rank": 340
     },
     {
         "roll_number": "23R01A05F2",
@@ -5296,8 +5361,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/r8vm8d4rsv6ufwo5ai",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:52.576456",
-        "rank": 338
+        "last_updated": "2026-04-26T14:01:07.945188",
+        "rank": 341
     },
     {
         "roll_number": "23R01A05T6",
@@ -5311,8 +5376,8 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ik686ffagvkw7765pu",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:55.844578",
-        "rank": 339
+        "last_updated": "2026-04-26T14:01:10.130512",
+        "rank": 342
     },
     {
         "roll_number": "23r01a66j2",
@@ -5326,255 +5391,255 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ppgc9lbs718c7bzqcx",
         "scrape_error": null,
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:57.477212",
-        "rank": 340
-    },
-    {
-        "roll_number": "24r05a0533",
-        "agentblazer_status": [],
-        "badges": 0,
-        "certifications": [],
-        "name": "",
-        "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/vjl14fhqey6asp27n8",
-        "scrape_error": "Private URL - Cannot Access Data",
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:02.938584",
-        "rank": 341
-    },
-    {
-        "roll_number": "22r01a0409",
-        "agentblazer_status": [],
-        "badges": 0,
-        "certifications": [],
-        "name": "",
-        "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/u2tdt4cej81upcsm6d",
-        "scrape_error": "Private URL - Cannot Access Data",
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:46:05.515394",
-        "rank": 342
-    },
-    {
-        "roll_number": "23R01A05A0",
-        "agentblazer_status": [],
-        "badges": 0,
-        "certifications": [],
-        "name": "",
-        "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/d28uru1de38c7d8p0s",
-        "scrape_error": "Private URL - Cannot Access Data",
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:05.263876",
+        "last_updated": "2026-04-26T14:01:15.041201",
         "rank": 343
     },
     {
-        "roll_number": "23r01a0533",
+        "roll_number": "23R01A05Y6",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/un15uhmlv3h7fcs5bg",
+        "profile_url": "https://www.salesforce.com/trailblazer/jpm3bsf8fptig62rc2",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:47:07.304923",
+        "last_updated": "2026-04-26T13:48:03.645208",
         "rank": 344
     },
     {
-        "roll_number": "23R01A05Y2",
+        "roll_number": "23R01A05Y6",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/q8j7e5hi5r5d1ebzs9",
+        "profile_url": "https://www.salesforce.com/trailblazer/jpm3bsf8fptig62rc2",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:48:05.734256",
+        "last_updated": "2026-04-26T13:48:05.989094",
         "rank": 345
     },
     {
-        "roll_number": "23R01A6714",
+        "roll_number": "23R01A05N4",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/bchsngid5m4pdsz8sm",
+        "profile_url": "https://www.salesforce.com/trailblazer/kh0o45dlh2f0ikbve7",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:03.370034",
+        "last_updated": "2026-04-26T13:49:04.276680",
         "rank": 346
     },
     {
-        "roll_number": "23R01A04A7",
+        "roll_number": "23R01A05E4",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/tp07f85gvemshewhrx",
+        "profile_url": "https://www.salesforce.com/trailblazer/dsn60skj7tfpo5hgkn",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:49:06.570023",
+        "last_updated": "2026-04-26T13:49:08.414194",
         "rank": 347
     },
     {
-        "roll_number": "22R01A0571",
+        "roll_number": "23r01a6662",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/ndw1dig8ime7cd6lzz",
+        "profile_url": "https://www.salesforce.com/trailblazer/pxjhgruoy8bb6q5wgp",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:05.018309",
+        "last_updated": "2026-04-26T13:50:07.240501",
         "rank": 348
     },
     {
-        "roll_number": "22R01A0584",
+        "roll_number": "23R01A6765",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/kjpxvlh9esnkvo2gw9",
+        "profile_url": "https://www.salesforce.com/trailblazer/jxgenzfga1h4a2nsgj",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:50:08.609605",
+        "last_updated": "2026-04-26T13:51:04.763162",
         "rank": 349
     },
     {
-        "roll_number": "23R01A6793",
+        "roll_number": "23R01A05BT",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/ltest349wegpt1qb4o",
+        "profile_url": "https://www.salesforce.com/trailblazer/cby1mryx400wauntdw",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:05.756940",
+        "last_updated": "2026-04-26T13:51:07.625860",
         "rank": 350
     },
     {
-        "roll_number": "23R05A6705",
+        "roll_number": "23R01A6762",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/xlb6rr6x42miw7qqyj",
+        "profile_url": "https://www.salesforce.com/trailblazer/srp8dp7nvmpa05a4gn",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:51:07.569739",
+        "last_updated": "2026-04-26T13:53:05.804269",
         "rank": 351
     },
     {
-        "roll_number": "23R01A0528",
+        "roll_number": "23R01A6685",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/tcj0tzcrumtlbbwb2v",
+        "profile_url": "https://www.salesforce.com/trailblazer/xe9yc6ikxxmhbbcbjc",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:02.032998",
+        "last_updated": "2026-04-26T13:53:08.204239",
         "rank": 352
     },
     {
-        "roll_number": "23R01A0511",
+        "roll_number": "23R01A05W4",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/jju0smcbgklsdyp90g",
+        "profile_url": "https://www.salesforce.com/trailblazer/tzyd7z9xdqrofasf89",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:04.257971",
+        "last_updated": "2026-04-26T13:54:06.679822",
         "rank": 353
     },
     {
-        "roll_number": "23R01A6680",
+        "roll_number": "22R01A0576",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/v35rx99hg7ehajla3u",
+        "profile_url": "https://www.salesforce.com/trailblazer/o8a7o5j2xmxzi4hf60",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:53:07.320495",
+        "last_updated": "2026-04-26T13:55:04.050520",
         "rank": 354
     },
     {
-        "roll_number": "23R01A05M7",
+        "roll_number": "23R01A6777",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/ye3drezyet5gjketp5",
+        "profile_url": "https://www.salesforce.com/trailblazer/y2y39ruvel3oam90j7",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:54:07.389035",
+        "last_updated": "2026-04-26T13:55:07.745731",
         "rank": 355
     },
     {
-        "roll_number": "23R01A6796",
+        "roll_number": "23R01A66H1",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/cbsnsmlockb2ra9903",
+        "profile_url": "https://www.salesforce.com/trailblazer/l374h0a3y9vj3e0irg",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:04.864816",
+        "last_updated": "2026-04-26T13:57:04.262537",
         "rank": 356
     },
     {
-        "roll_number": "23R01A6725",
+        "roll_number": "Puttisaicharan",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/y2ef4w1uue1abax59x",
+        "profile_url": "https://www.salesforce.com/trailblazer/haa86iicpp36gxplne",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:55:07.783849",
+        "last_updated": "2026-04-26T13:57:06.894142",
         "rank": 357
     },
     {
-        "roll_number": "23R01A0504",
+        "roll_number": "23R01A66C4",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/mtgtn534lypg8k9ihe",
+        "profile_url": "https://www.salesforce.com/trailblazer/veeramachanenikarthisha",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:56:06.338579",
+        "last_updated": "2026-04-26T13:58:08.190578",
         "rank": 358
     },
     {
-        "roll_number": "23R01A0418",
+        "roll_number": "24R05A0527",
         "agentblazer_status": [],
         "badges": 0,
         "certifications": [],
         "name": "",
         "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/vt2f8wagwnzrlvcs5e",
+        "profile_url": "https://www.salesforce.com/trailblazer/rsrnmcyyhalvivxd91",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:03.261096",
+        "last_updated": "2026-04-26T13:58:08.277525",
         "rank": 359
+    },
+    {
+        "roll_number": "23R01A66Y4",
+        "agentblazer_status": [],
+        "badges": 0,
+        "certifications": [],
+        "name": "",
+        "points": 0,
+        "profile_url": "https://www.salesforce.com/trailblazer/h6dnnbawfstvkd39zs",
+        "scrape_error": "Private URL - Cannot Access Data",
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:00:05.054388",
+        "rank": 360
+    },
+    {
+        "roll_number": "24R05A0515",
+        "agentblazer_status": [],
+        "badges": 0,
+        "certifications": [],
+        "name": "",
+        "points": 0,
+        "profile_url": "https://www.salesforce.com/trailblazer/d6fyjsyektc3jpcpsj",
+        "scrape_error": "Private URL - Cannot Access Data",
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:00:08.281877",
+        "rank": 361
+    },
+    {
+        "roll_number": "22r01a6257",
+        "agentblazer_status": [],
+        "badges": 0,
+        "certifications": [],
+        "name": "",
+        "points": 0,
+        "profile_url": "https://www.salesforce.com/trailblazer/f25b5b82lvc8dvbobh",
+        "scrape_error": "Private URL - Cannot Access Data",
+        "is_scraping": false,
+        "last_updated": "2026-04-26T14:01:07.635391",
+        "rank": 362
     },
     {
         "roll_number": "23R01A05J2",
@@ -5586,46 +5651,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/q5brku58z52qrfthle",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:57:06.795768",
-        "rank": 360
-    },
-    {
-        "roll_number": "22r01a6251",
-        "agentblazer_status": [],
-        "badges": 0,
-        "certifications": [],
-        "name": "",
-        "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/yuw033uyvo1qohqovp",
-        "scrape_error": "Private URL - Cannot Access Data",
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:58:05.778109",
-        "rank": 361
-    },
-    {
-        "roll_number": "23R01A05Y0",
-        "agentblazer_status": [],
-        "badges": 0,
-        "certifications": [],
-        "name": "",
-        "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/krg24b5lohz24jrchn",
-        "scrape_error": "Private URL - Cannot Access Data",
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:05.432495",
-        "rank": 362
-    },
-    {
-        "roll_number": "23R01A66P7",
-        "agentblazer_status": [],
-        "badges": 0,
-        "certifications": [],
-        "name": "",
-        "points": 0,
-        "profile_url": "https://www.salesforce.com/trailblazer/klu5sbii9vtkipevb0",
-        "scrape_error": "Private URL - Cannot Access Data",
-        "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:07.586187",
+        "last_updated": "2026-04-26T14:02:06.013886",
         "rank": 363
     },
     {
@@ -5638,7 +5664,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rc5a5vjyf5xzv2opqy",
         "scrape_error": "Profile Not Found (404)",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:23.623444",
+        "last_updated": "2026-04-26T14:02:08.564205",
         "rank": 364
     },
     {
@@ -5651,7 +5677,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p7wgrdeczggemmbykf",
         "scrape_error": "Profile Not Found (404)",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:23.840631",
+        "last_updated": "2026-04-26T14:02:09.825230",
         "rank": 365
     },
     {
@@ -5664,7 +5690,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/lfnbwub3wwbbni90hh",
         "scrape_error": "Profile Not Found (404)",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:25.150772",
+        "last_updated": "2026-04-26T14:02:09.948418",
         "rank": 366
     },
     {
@@ -5677,7 +5703,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/odvqmxslwcgrp1r7lj",
         "scrape_error": "Profile Not Found (404)",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:25.120202",
+        "last_updated": "2026-04-26T14:02:11.092335",
         "rank": 367
     },
     {
@@ -5690,7 +5716,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/otsli4s5157idw541i",
         "scrape_error": "Profile Not Found (404)",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:26.630102",
+        "last_updated": "2026-04-26T14:02:11.195202",
         "rank": 368
     },
     {
@@ -5703,7 +5729,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/it995rhl2xzepqdybl",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:34.831615",
+        "last_updated": "2026-04-26T14:02:21.121071",
         "rank": 369
     },
     {
@@ -5742,7 +5768,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/n3n6fjxyumr0apfvw3",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:37.082017",
+        "last_updated": "2026-04-26T14:02:21.028711",
         "rank": 372
     },
     {
@@ -5755,7 +5781,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/kdyfaboez29no3vg3d",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:37.159730",
+        "last_updated": "2026-04-26T14:02:23.401004",
         "rank": 373
     },
     {
@@ -5768,7 +5794,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T13:59:44.653620",
+        "last_updated": "2026-04-26T14:02:30.972864",
         "rank": 374
     },
     {
@@ -5781,7 +5807,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T13:59:47.623096",
+        "last_updated": "2026-04-26T14:02:31.952260",
         "rank": 375
     },
     {
@@ -5820,7 +5846,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T13:59:46.521706",
+        "last_updated": "2026-04-26T14:02:32.943857",
         "rank": 378
     },
     {
@@ -5833,7 +5859,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rcr4y0z4ss845tvqqw",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:54.191404",
+        "last_updated": "2026-04-26T14:02:40.453824",
         "rank": 379
     },
     {
@@ -5898,7 +5924,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/zbm3tvyf2wukibdowz",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T13:59:57.063093",
+        "last_updated": "2026-04-26T14:02:41.796694",
         "rank": 384
     },
     {
@@ -5924,7 +5950,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T13:59:57.324579",
+        "last_updated": "2026-04-26T14:02:43.046604",
         "rank": 386
     },
     {
@@ -5937,7 +5963,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/glls1uhsu037r3hsas",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:04.152134",
+        "last_updated": "2026-04-26T14:02:49.766585",
         "rank": 387
     },
     {
@@ -5950,7 +5976,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/z2h347rbbqzc82dj6o",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:07.070297",
+        "last_updated": "2026-04-26T14:02:51.746868",
         "rank": 388
     },
     {
@@ -5963,7 +5989,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/akshithapadala511",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:06.843919",
+        "last_updated": "2026-04-26T14:02:52.700323",
         "rank": 389
     },
     {
@@ -5976,7 +6002,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rg8cadkhk5rvb4eimg",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:13.797138",
+        "last_updated": "2026-04-26T14:02:59.044563",
         "rank": 390
     },
     {
@@ -5989,7 +6015,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/m71q0e87o8hxanx156",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:16.823256",
+        "last_updated": "2026-04-26T14:03:01.066934",
         "rank": 391
     },
     {
@@ -6002,7 +6028,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/aravind21",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:17.061384",
+        "last_updated": "2026-04-26T14:03:02.628961",
         "rank": 392
     },
     {
@@ -6015,7 +6041,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:00:23.615620",
+        "last_updated": "2026-04-26T14:03:09.067909",
         "rank": 393
     },
     {
@@ -6028,7 +6054,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:00:26.834336",
+        "last_updated": "2026-04-26T14:03:11.717878",
         "rank": 394
     },
     {
@@ -6041,7 +6067,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:00:26.616023",
+        "last_updated": "2026-04-26T14:03:12.078218",
         "rank": 395
     },
     {
@@ -6054,7 +6080,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/p0xfs8somf2gt79ycq",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:33.476630",
+        "last_updated": "2026-04-26T14:03:18.975031",
         "rank": 396
     },
     {
@@ -6067,7 +6093,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:00:37.162809",
+        "last_updated": "2026-04-26T14:03:23.343436",
         "rank": 397
     },
     {
@@ -6080,7 +6106,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:00:36.142605",
+        "last_updated": "2026-04-26T14:03:21.431573",
         "rank": 398
     },
     {
@@ -6106,7 +6132,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:00:42.930815",
+        "last_updated": "2026-04-26T14:03:28.309799",
         "rank": 400
     },
     {
@@ -6119,7 +6145,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vtmrv50lqa5ydh75cy",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:45.741804",
+        "last_updated": "2026-04-26T14:03:30.955789",
         "rank": 401
     },
     {
@@ -6132,7 +6158,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yrdstl1xdp6j93otxg",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:46.982556",
+        "last_updated": "2026-04-26T14:03:32.713915",
         "rank": 402
     },
     {
@@ -6145,7 +6171,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/k7p3qhijaolphom00k",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:52.427833",
+        "last_updated": "2026-04-26T14:03:37.925680",
         "rank": 403
     },
     {
@@ -6158,7 +6184,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/v0np3j19ilmgizbx56",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:55.268220",
+        "last_updated": "2026-04-26T14:03:40.329014",
         "rank": 404
     },
     {
@@ -6171,7 +6197,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/cc49cyz6fqe5nufldb",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:00:56.623375",
+        "last_updated": "2026-04-26T14:03:42.256545",
         "rank": 405
     },
     {
@@ -6184,7 +6210,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/eo5us7zz692a4mtp86",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:01.856494",
+        "last_updated": "2026-04-26T14:03:47.795950",
         "rank": 406
     },
     {
@@ -6197,7 +6223,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:01:04.656718",
+        "last_updated": "2026-04-26T14:03:49.878682",
         "rank": 407
     },
     {
@@ -6210,7 +6236,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/lm7ytueccdk6pwfarn",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:06.096918",
+        "last_updated": "2026-04-26T14:03:52.760192",
         "rank": 408
     },
     {
@@ -6223,7 +6249,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/yqpg2w54zcqjyxxhbl",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:11.193025",
+        "last_updated": "2026-04-26T14:03:57.156640",
         "rank": 409
     },
     {
@@ -6236,7 +6262,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/c9hk7d3o8fxii0crwz",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:14.161622",
+        "last_updated": "2026-04-26T14:03:59.536591",
         "rank": 410
     },
     {
@@ -6249,7 +6275,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/sdxh4t214aje35bz4a",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:15.665962",
+        "last_updated": "2026-04-26T14:04:02.325595",
         "rank": 411
     },
     {
@@ -6262,7 +6288,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vj4klvf716ssuodm1f",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:20.736500",
+        "last_updated": "2026-04-26T14:04:07.035589",
         "rank": 412
     },
     {
@@ -6275,7 +6301,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ndosq4rm7zx0ho2acz",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:23.694596",
+        "last_updated": "2026-04-26T14:04:09.570923",
         "rank": 413
     },
     {
@@ -6288,7 +6314,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/qepqdqzf254pq8slll",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:25.224006",
+        "last_updated": "2026-04-26T14:04:11.693332",
         "rank": 414
     },
     {
@@ -6301,7 +6327,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/jln2nh422kgm0obgn3",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:30.253563",
+        "last_updated": "2026-04-26T14:04:16.541943",
         "rank": 415
     },
     {
@@ -6314,7 +6340,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:01:33.493814",
+        "last_updated": "2026-04-26T14:04:19.099174",
         "rank": 416
     },
     {
@@ -6327,7 +6353,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:01:34.587056",
+        "last_updated": "2026-04-26T14:04:20.896286",
         "rank": 417
     },
     {
@@ -6340,7 +6366,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:01:40.344675",
+        "last_updated": "2026-04-26T14:04:26.845201",
         "rank": 418
     },
     {
@@ -6392,7 +6418,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ou8hge7jkluwtg3pgi",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:42.930842",
+        "last_updated": "2026-04-26T14:04:28.639866",
         "rank": 422
     },
     {
@@ -6405,7 +6431,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:01:43.956301",
+        "last_updated": "2026-04-26T14:04:30.345507",
         "rank": 423
     },
     {
@@ -6418,7 +6444,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/q7ogznfdjtr2tt25za",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:49.875464",
+        "last_updated": "2026-04-26T14:04:36.226233",
         "rank": 424
     },
     {
@@ -6444,7 +6470,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/kq307j6n0un92hk62l",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:52.604845",
+        "last_updated": "2026-04-26T14:04:38.432483",
         "rank": 426
     },
     {
@@ -6457,7 +6483,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/bf2z5j9kzx529b2ws2",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:54.081470",
+        "last_updated": "2026-04-26T14:04:40.146432",
         "rank": 427
     },
     {
@@ -6470,7 +6496,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:01:59.489998",
+        "last_updated": "2026-04-26T14:04:45.540953",
         "rank": 428
     },
     {
@@ -6483,7 +6509,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:02:01.741447",
+        "last_updated": "2026-04-26T14:04:47.785172",
         "rank": 429
     },
     {
@@ -6496,7 +6522,7 @@
         "profile_url": "salesforce.com/trailblazer/o464rs2irdw9olkjdy",
         "scrape_error": "Navigation Failed (Invalid URL)",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:01:54.132129",
+        "last_updated": "2026-04-26T14:04:40.209513",
         "rank": 430
     },
     {
@@ -6509,7 +6535,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/jonw46psw6vuyu441w",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:03.464837",
+        "last_updated": "2026-04-26T14:04:49.969916",
         "rank": 431
     },
     {
@@ -6522,7 +6548,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/d14e136n0qh9zoo1h4",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:08.946011",
+        "last_updated": "2026-04-26T14:04:55.400870",
         "rank": 432
     },
     {
@@ -6535,7 +6561,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:02:11.163852",
+        "last_updated": "2026-04-26T14:04:57.752373",
         "rank": 433
     },
     {
@@ -6548,7 +6574,7 @@
         "profile_url": "www.salesforce.com/trailblazer/iggmw1m7wjozif9s31",
         "scrape_error": "Navigation Failed (Invalid URL)",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:03.508206",
+        "last_updated": "2026-04-26T14:04:50.010692",
         "rank": 434
     },
     {
@@ -6561,7 +6587,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pcjbxvrtfouk2u5p8v",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:13.185345",
+        "last_updated": "2026-04-26T14:04:59.697330",
         "rank": 435
     },
     {
@@ -6574,7 +6600,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/i7c0z2x6chjeclhw3x",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:18.438371",
+        "last_updated": "2026-04-26T14:05:04.647573",
         "rank": 436
     },
     {
@@ -6587,7 +6613,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wef6266fzx9521dr7p",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:20.871321",
+        "last_updated": "2026-04-26T14:05:07.256146",
         "rank": 437
     },
     {
@@ -6600,7 +6626,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/n2o4tzyl6cnpxemagy",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:22.781952",
+        "last_updated": "2026-04-26T14:05:09.500701",
         "rank": 438
     },
     {
@@ -6613,7 +6639,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vu3l5dw4xc7va3lwir",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:28.178015",
+        "last_updated": "2026-04-26T14:05:15.151635",
         "rank": 439
     },
     {
@@ -6639,7 +6665,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/prathibhamangali",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:30.425851",
+        "last_updated": "2026-04-26T14:05:16.878222",
         "rank": 441
     },
     {
@@ -6652,7 +6678,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:02:32.177378",
+        "last_updated": "2026-04-26T14:05:19.375195",
         "rank": 442
     },
     {
@@ -6678,7 +6704,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/apshc32shgjq3231ly",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:37.754356",
+        "last_updated": "2026-04-26T14:05:25.124612",
         "rank": 444
     },
     {
@@ -6691,7 +6717,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xv1r7jlemp7gi3wfpz",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:40.029718",
+        "last_updated": "2026-04-26T14:05:26.803458",
         "rank": 445
     },
     {
@@ -6704,7 +6730,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:02:42.115000",
+        "last_updated": "2026-04-26T14:05:28.765189",
         "rank": 446
     },
     {
@@ -6717,7 +6743,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/d2waen2kccrfslmr3t",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:47.280643",
+        "last_updated": "2026-04-26T14:05:34.729104",
         "rank": 447
     },
     {
@@ -6743,7 +6769,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/wib61t4ca1y6ft238e",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:49.673306",
+        "last_updated": "2026-04-26T14:05:36.586921",
         "rank": 449
     },
     {
@@ -6769,7 +6795,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:02:51.781911",
+        "last_updated": "2026-04-26T14:05:39.334716",
         "rank": 451
     },
     {
@@ -6782,7 +6808,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:02:56.973830",
+        "last_updated": "2026-04-26T14:05:44.048476",
         "rank": 452
     },
     {
@@ -6795,7 +6821,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/jyl4vewf0zrggo2ot6",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:02:59.187073",
+        "last_updated": "2026-04-26T14:05:46.895228",
         "rank": 453
     },
     {
@@ -6808,7 +6834,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/l33b3tfftfhb5cycxl",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:01.297096",
+        "last_updated": "2026-04-26T14:05:49.152157",
         "rank": 454
     },
     {
@@ -6821,7 +6847,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/ss9dh4hbbiopzzkni2",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:06.166600",
+        "last_updated": "2026-04-26T14:05:54.011579",
         "rank": 455
     },
     {
@@ -6834,7 +6860,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:03:08.583125",
+        "last_updated": "2026-04-26T14:05:56.563238",
         "rank": 456
     },
     {
@@ -6847,7 +6873,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/xnja5wd2oen0ia3xsx",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:10.542132",
+        "last_updated": "2026-04-26T14:05:58.515688",
         "rank": 457
     },
     {
@@ -6873,7 +6899,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/fq58wpxsd58qw4j2bh",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:15.483300",
+        "last_updated": "2026-04-26T14:06:03.639010",
         "rank": 459
     },
     {
@@ -6886,7 +6912,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:03:17.919251",
+        "last_updated": "2026-04-26T14:06:06.762360",
         "rank": 460
     },
     {
@@ -6899,7 +6925,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/g602e0ckj192u74h6j",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:19.860494",
+        "last_updated": "2026-04-26T14:06:08.572675",
         "rank": 461
     },
     {
@@ -6951,7 +6977,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/anejymdn1tb3rkczkt",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:25.162629",
+        "last_updated": "2026-04-26T14:06:13.388373",
         "rank": 465
     },
     {
@@ -7016,7 +7042,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:03:17.969369",
+        "last_updated": "2026-04-26T14:06:06.794403",
         "rank": 470
     },
     {
@@ -7081,7 +7107,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:03:27.489081",
+        "last_updated": "2026-04-26T14:06:16.701771",
         "rank": 475
     },
     {
@@ -7107,7 +7133,7 @@
         "is_scraping": false,
         "agentblazer_status": [],
         "certifications": [],
-        "last_updated": "2026-04-25T14:03:29.155088",
+        "last_updated": "2026-04-26T14:06:18.041422",
         "rank": 477
     },
     {
@@ -7120,7 +7146,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/lvcf3kjhv654w27kql",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:34.728081",
+        "last_updated": "2026-04-26T14:06:23.672528",
         "rank": 478
     },
     {
@@ -7133,7 +7159,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/pz7211gdbgt0v99bvv",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:37.015790",
+        "last_updated": "2026-04-26T14:06:26.290474",
         "rank": 479
     },
     {
@@ -7172,7 +7198,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/rz5mzvw46tyjd0s9bz",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:38.969674",
+        "last_updated": "2026-04-26T14:06:28.038950",
         "rank": 482
     },
     {
@@ -7185,7 +7211,7 @@
         "profile_url": "https://www.salesforce.com/trailblazer/vvj2tq7t5ilrt2mlkv",
         "scrape_error": "Private URL - Cannot Access Data",
         "is_scraping": false,
-        "last_updated": "2026-04-25T14:03:44.081863",
+        "last_updated": "2026-04-26T14:06:33.102137",
         "rank": 483
     }
 ]
