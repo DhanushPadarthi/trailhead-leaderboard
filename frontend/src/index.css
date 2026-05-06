@@ -195,10 +195,8 @@ body {
 
 .table-row {
   background: rgba(30, 41, 59, 0.8);
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
   border-radius: 12px;
-  animation: fadeIn 0.5s ease-out forwards;
 }
 
 @keyframes fadeIn {
@@ -503,5 +501,101 @@ body {
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* ─── Course Tabs ────────────────────────────────────────────────── */
+.course-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 6px;
+  background: rgba(15, 23, 42, 0.6);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  overflow-x: auto;
+}
+
+.course-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 14px 20px;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background: transparent;
+  color: #94a3b8;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.course-tab::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: var(--tab-color-20, rgba(99, 102, 241, 0.12));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.course-tab:hover {
+  color: #e2e8f0;
+  border-color: var(--tab-color-40, rgba(99, 102, 241, 0.4));
+}
+
+.course-tab:hover::before {
+  opacity: 1;
+}
+
+.course-tab.active {
+  color: #f1f5f9;
+  border-color: var(--tab-color, #6366f1);
+  background: var(--tab-color-20, rgba(99, 102, 241, 0.15));
+  box-shadow: 0 0 20px var(--tab-color-20, rgba(99, 102, 241, 0.2)),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.course-tab.active::before {
+  opacity: 0;
+}
+
+.course-tab-label {
+  position: relative;
+  z-index: 1;
+  font-size: 14px;
+}
+
+.course-tab-count {
+  position: relative;
+  z-index: 1;
+  font-size: 11px;
+  font-weight: 500;
+  color: #64748b;
+  transition: color 0.3s ease;
+}
+
+.course-tab.active .course-tab-count {
+  color: var(--tab-color, #6366f1);
+}
+
+/* Responsive: stack tabs vertically on small screens */
+@media (max-width: 768px) {
+  .course-tabs {
+    flex-direction: column;
+  }
+  
+  .course-tab {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
   }
 }
